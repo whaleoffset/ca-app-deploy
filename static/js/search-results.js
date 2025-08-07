@@ -1,8 +1,7 @@
 // Gestion des résultats de recherche - Version simplifiée
 document.addEventListener('DOMContentLoaded', function() {
-    // Récupérer le paramètre de recherche depuis l'URL
-    var urlParams = new URLSearchParams(window.location.search);
-    var query = urlParams.get('q');
+    // Récupérer le paramètre de recherche depuis l'URL de manière compatible
+    var query = getQueryParameter('q');
     
     if (!query) return; // Pas de recherche, on ne fait rien
     
@@ -19,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
+// Fonction simple pour récupérer un paramètre d'URL
+function getQueryParameter(name) {
+    var url = window.location.search;
+    var regex = new RegExp('[?&]' + name + '=([^&#]*)');
+    var results = regex.exec(url);
+    return results ? decodeURIComponent(results[1]) : null;
+}
+
 function performSearch(query, searchData) {
     var queryLower = query.toLowerCase();
     var results = {
@@ -32,7 +39,7 @@ function performSearch(query, searchData) {
             var profil = searchData.profils[i];
             var titleLower = profil.title.toLowerCase();
             
-            if (titleLower.includes(queryLower)) {
+            if (titleLower.indexOf(queryLower) !== -1) {
                 results.profils.push(profil);
             }
         }
@@ -44,7 +51,7 @@ function performSearch(query, searchData) {
             var sujet = searchData.sujets[i];
             var titleLower = sujet.title.toLowerCase();
             
-            if (titleLower.includes(queryLower)) {
+            if (titleLower.indexOf(queryLower) !== -1) {
                 results.sujets.push(sujet);
             }
         }
