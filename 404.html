@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page non trouvée - CasierPolitique.com</title>
+    <meta name="description" content="Page non trouvée">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.casierpolitique.com/404">
+    
+    <!-- CSS à ajouter -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/profil/">Profil</a>
+            <a href="/sujet/">Sujets</a>
+        </nav>
+    </header>
+
+    <main>
+        
+<div class="error-page">
+    <h1>404 - Page non trouvée</h1>
+    <p>La page que vous recherchez n'existe pas.</p>
+    
+    <div class="suggestions">
+        <h2>Suggestions :</h2>
+        <ul>
+            <li><a href="/">Retour à l'accueil</a></li>
+            <li><a href="/profil/">Consulter les profils</a></li>
+            <li><a href="/sujet/">Explorer les sujets</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+// Redirection automatique après 5 secondes
+setTimeout(() => {
+    window.location.href = '/';
+}, 5000);
+</script>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CasierPolitique.com - Aucun cookie, aucun tracker</p>
+    </footer>
+
+    <!-- Script de redirection pour éviter les miroirs -->
+    <script>
+        if (location.host !== "www.casierpolitique.com") {
+            location.href = "https://www.casierpolitique.com" + location.pathname;
+        }
+    </script>
+</body>
+</html> 
