@@ -369,6 +369,8 @@ footer {
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    min-width: 120px;
+    flex-shrink: 0;
 }
 
 .search-form button:hover {
@@ -400,6 +402,8 @@ footer {
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
     transition: background-color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
 }
 
 .suggestion-item:last-child {
@@ -474,6 +478,7 @@ footer {
         border-radius: 4px;
         width: 100%;
         max-width: 300px;
+        min-width: auto;
     }
     
     .suggestions-dropdown {

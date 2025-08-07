@@ -60,9 +60,13 @@ class SearchSuggestions {
             return;
         }
 
-        const filteredSuggestions = this.suggestions.filter(suggestion =>
-            suggestion.text.toLowerCase().includes(query.toLowerCase())
-        ).slice(0, 8); // Limiter à 8 suggestions
+        const queryLower = query.toLowerCase();
+        const filteredSuggestions = this.suggestions.filter(suggestion => {
+            const textLower = suggestion.text.toLowerCase();
+            // Recherche plus flexible : recherche dans tous les mots
+            const words = textLower.split(/\s+/);
+            return words.some(word => word.includes(queryLower)) || textLower.includes(queryLower);
+        }).slice(0, 8); // Limiter à 8 suggestions
 
         this.displaySuggestions(filteredSuggestions);
     }
@@ -83,6 +87,9 @@ class SearchSuggestions {
                 <span class="suggestion-type">${suggestion.type === 'profil' ? 'Profil' : 'Sujet'}</span>
             `;
             
+            // Rendre toute la ligne cliquable
+            suggestionElement.style.cursor = 'pointer';
+            
             suggestionElement.addEventListener('click', () => {
                 this.selectSuggestion(suggestion);
             });
@@ -102,7 +109,9 @@ class SearchSuggestions {
         this.hideSuggestions();
         
         // Rediriger vers la page de la suggestion
-        window.location.href = suggestion.url;
+        if (suggestion.url) {
+            window.location.href = suggestion.url;
+        }
     }
 
     highlightSuggestion(element) {
