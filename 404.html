@@ -44,12 +44,7 @@
     </div>
 </div>
 
-<script>
-// Redirection automatique après 5 secondes
-setTimeout(() => {
-    window.location.href = '/';
-}, 5000);
-</script>
+<script src="/static/js/404-redirect.js"></script>
 
     </main>
 
@@ -65,11 +60,7 @@ setTimeout(() => {
         </div>
     </footer>
 
-    <!-- Script de redirection pour éviter les miroirs -->
-    <script>
-        if (location.host !== "www.casierpolitique.com") {
-            location.href = "https://www.casierpolitique.com" + location.pathname;
-        }
-    </script>
+    <!-- Scripts -->
+    <script src="/static/js/redirect.js"></script>
 </body>
 </html> 

@@ -33,6 +33,21 @@
 <div class="home">
     <h1>CasierPolitique.com</h1>
     <p>Le casier politique des personnalités et thèmes politiques français.</p>
+
+    <div class="search-section">
+        <form action="/recherche/" method="get" class="search-form" role="search">
+            <input 
+                type="text" 
+                name="q" 
+                placeholder="Rechercher une personnalité ou un sujet..." 
+                aria-label="Recherche"
+                required
+            >
+            <button type="submit">
+                Rechercher
+            </button>
+        </form>
+    </div>
     
     <div class="sections">
         <div class="section">
@@ -61,11 +76,7 @@
         </div>
     </footer>
 
-    <!-- Script de redirection pour éviter les miroirs -->
-    <script>
-        if (location.host !== "www.casierpolitique.com") {
-            location.href = "https://www.casierpolitique.com" + location.pathname;
-        }
-    </script>
+    <!-- Scripts -->
+    <script src="/static/js/redirect.js"></script>
 </body>
 </html> 
