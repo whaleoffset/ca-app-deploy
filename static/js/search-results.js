@@ -1,25 +1,16 @@
 // Gestion des résultats de recherche - Version simplifiée
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Search results script loaded');
-    
     // Récupérer le paramètre de recherche depuis l'URL de manière compatible
     var query = getQueryParameter('q');
-    console.log('Query parameter:', query);
     
-    if (!query) {
-        console.log('No query parameter found');
-        return; // Pas de recherche, on ne fait rien
-    }
+    if (!query) return; // Pas de recherche, on ne fait rien
     
     // Charger les données de recherche
-    console.log('Fetching search data...');
     fetch('/data/search-index.json')
         .then(function(response) {
-            console.log('Response status:', response.status);
             return response.json();
         })
         .then(function(data) {
-            console.log('Search data loaded:', data);
             performSearch(query, data);
         })
         .catch(function(error) {
@@ -30,16 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
 // Fonction simple pour récupérer un paramètre d'URL
 function getQueryParameter(name) {
     var url = window.location.search;
-    console.log('Current URL search:', url);
     var regex = new RegExp('[?&]' + name + '=([^&#]*)');
     var results = regex.exec(url);
-    var result = results ? decodeURIComponent(results[1]) : null;
-    console.log('Extracted parameter:', result);
-    return result;
+    return results ? decodeURIComponent(results[1]) : null;
 }
 
 function performSearch(query, searchData) {
-    console.log('Performing search for:', query);
     var queryLower = query.toLowerCase();
     var results = {
         profils: [],
@@ -48,13 +35,11 @@ function performSearch(query, searchData) {
     
     // Recherche dans les profils
     if (searchData.profils) {
-        console.log('Searching in', searchData.profils.length, 'profils');
         for (var i = 0; i < searchData.profils.length; i++) {
             var profil = searchData.profils[i];
             var titleLower = profil.title.toLowerCase();
             
             if (titleLower.indexOf(queryLower) !== -1) {
-                console.log('Found profil match:', profil.title);
                 results.profils.push(profil);
             }
         }
@@ -62,24 +47,20 @@ function performSearch(query, searchData) {
     
     // Recherche dans les sujets
     if (searchData.sujets) {
-        console.log('Searching in', searchData.sujets.length, 'sujets');
         for (var i = 0; i < searchData.sujets.length; i++) {
             var sujet = searchData.sujets[i];
             var titleLower = sujet.title.toLowerCase();
             
             if (titleLower.indexOf(queryLower) !== -1) {
-                console.log('Found sujet match:', sujet.title);
                 results.sujets.push(sujet);
             }
         }
     }
     
-    console.log('Search results:', results);
     displayResults(query, results);
 }
 
 function displayResults(query, results) {
-    console.log('Displaying results for:', query);
     // Mettre à jour le titre de la page
     document.title = 'Résultats pour "' + query + '" - CasierPolitique.com';
     
@@ -95,13 +76,11 @@ function displayResults(query, results) {
     
     // Afficher "aucun résultat" si nécessaire
     if (results.profils.length === 0 && results.sujets.length === 0) {
-        console.log('No results found, showing no results message');
         showNoResults(query);
     }
 }
 
 function updateSection(type, items) {
-    console.log('Updating section:', type, 'with', items.length, 'items');
     var sections = document.querySelectorAll('.results-section');
     var section;
     
@@ -111,16 +90,10 @@ function updateSection(type, items) {
         section = sections[1];
     }
     
-    if (!section) {
-        console.log('Section not found for:', type);
-        return;
-    }
+    if (!section) return;
     
     var grid = section.querySelector('.results-grid');
-    if (!grid) {
-        console.log('Grid not found in section:', type);
-        return;
-    }
+    if (!grid) return;
     
     // Mettre à jour le titre
     var title = section.querySelector('h2');
@@ -141,7 +114,6 @@ function updateSection(type, items) {
 }
 
 function showNoResults(query) {
-    console.log('Showing no results for:', query);
     var container = document.querySelector('.results-container');
     if (container) {
         container.innerHTML = 

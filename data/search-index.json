@@ -13,9 +13,27 @@
       "type": "profil"
     },
     {
+      "title": "Prenom Nom",
+      "url": "/profil/laurent-wauquiez.html",
+      "description": "Profil de Prenom Nom",
+      "type": "profil"
+    },
+    {
+      "title": "PBruno Le Maire",
+      "url": "/profil/bruno-le-maire.html",
+      "description": "Profil de PBruno Le Maire",
+      "type": "profil"
+    },
+    {
       "title": "Sandrine Rousseau",
       "url": "/profil/sandrine-rousseau.html",
       "description": "Profil de Sandrine Rousseau",
+      "type": "profil"
+    },
+    {
+      "title": "Prenom Nom",
+      "url": "/profil/gabriel-attal.html",
+      "description": "Profil de Prenom Nom",
       "type": "profil"
     },
     {
@@ -45,5 +63,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-07T15:25:14.630450"
+  "generated_at": "2025-08-07T15:42:36.066371"
 }
