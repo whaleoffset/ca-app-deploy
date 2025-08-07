@@ -1,0 +1,19 @@
+{
+  "profils": [
+    {
+      "title": "Emmanuel Macron",
+      "url": "/profil/emmanuel-macron.html",
+      "description": "Profil de Emmanuel Macron",
+      "type": "profil"
+    }
+  ],
+  "themes": [
+    {
+      "title": "Réforme des retraites",
+      "url": "/theme/retraites.html",
+      "description": "Thème : Réforme des retraites",
+      "type": "theme"
+    }
+  ],
+  "generated_at": "2025-08-07T10:40:58.466341"
+}
