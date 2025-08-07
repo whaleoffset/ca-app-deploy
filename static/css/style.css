@@ -189,6 +189,77 @@ main {
     color: #666;
 }
 
+/* Styles pour les sources avec exposants */
+.source-reference {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.source-reference:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.source-reference.missing {
+    color: #e74c3c;
+    cursor: help;
+}
+
+.source-reference.missing:hover {
+    color: #c0392b;
+}
+
+.sources-list {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sources-list h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.sources-list ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+}
+
+.sources-list li {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.sources-list a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.sources-list a:hover {
+    text-decoration: underline;
+}
+
+.missing-source {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+.missing-source-text {
+    font-weight: bold;
+}
+
+.missing-source-help {
+    font-size: 0.9em;
+    color: #95a5a6;
+    font-weight: normal;
+}
+
 /* List pages */
 .list-page {
     background: white;
