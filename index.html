@@ -36,13 +36,17 @@
 
     <div class="search-section">
         <form action="/recherche/" method="get" class="search-form" role="search">
-            <input 
-                type="text" 
-                name="q" 
-                placeholder="Rechercher une personnalité ou un sujet..." 
-                aria-label="Recherche"
-                required
-            >
+            <div class="search-input-container">
+                <input 
+                    type="text" 
+                    name="q" 
+                    id="search-input"
+                    placeholder="Rechercher une personnalité ou un sujet..." 
+                    aria-label="Recherche"
+                    required
+                >
+                <div id="suggestions" class="suggestions-dropdown"></div>
+            </div>
             <button type="submit">
                 Rechercher
             </button>
@@ -78,5 +82,6 @@
 
     <!-- Scripts -->
     <script src="/static/js/redirect.js"></script>
+    <script src="/static/js/search-suggestions.js"></script>
 </body>
 </html> 
