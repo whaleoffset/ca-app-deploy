@@ -14,10 +14,17 @@
 </head>
 <body>
     <header>
+        <div class="header-content">
+            <div class="site-title">
+                <a href="/">Casier Politique</a>
+            </div>
+        </div>
         <nav>
-            <a href="/">Accueil</a>
-            <a href="/profil/">Profil</a>
-            <a href="/sujet/">Sujets</a>
+            <div class="nav-container">
+                <a href="/" >Accueil</a>
+                <a href="/profil/" >Profils</a>
+                <a href="/sujet/" class="active">Sujets</a>
+            </div>
         </nav>
     </header>
 
@@ -25,21 +32,40 @@
         
 <div class="list-page">
     <h1>Sujets</h1>
-    <ul class="items-list">
+    <p>Liste des sujets d'actualité politique</p>
+    
+    <div class="items-grid">
         
-        <li><a href="/sujet/nicolas-qui-paie.html">Nicolas qui paie</a></li>
+        <div class="item-card">
+            <h3><a href="/sujet/nicolas-qui-paie.html">Nicolas qui paie</a></h3>
+            <p>Sujet : Nicolas qui paie</p>
+        </div>
         
-        <li><a href="/sujet/attentats-7-octobre.html">Attentats du 7 octobre</a></li>
+        <div class="item-card">
+            <h3><a href="/sujet/attentats-7-octobre.html">Attentats du 7 octobre</a></h3>
+            <p>Sujet : Attentats du 7 octobre</p>
+        </div>
         
-        <li><a href="/sujet/jeux-olympiques-paris.html">Jeux olympiques de Paris</a></li>
+        <div class="item-card">
+            <h3><a href="/sujet/jeux-olympiques-paris.html">Jeux olympiques de Paris</a></h3>
+            <p>Sujet : Jeux olympiques de Paris</p>
+        </div>
         
-    </ul>
+    </div>
 </div>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 CasierPolitique.com - Aucun cookie, aucun tracker</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/mentions-legales">Mentions légales</a>
+                <a href="/suggestions">Suggestions</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2024 CasierPolitique.com - Aucun cookie, aucun tracker
+            </div>
+        </div>
     </footer>
 
     <!-- Script de redirection pour éviter les miroirs -->

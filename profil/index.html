@@ -14,10 +14,17 @@
 </head>
 <body>
     <header>
+        <div class="header-content">
+            <div class="site-title">
+                <a href="/">Casier Politique</a>
+            </div>
+        </div>
         <nav>
-            <a href="/">Accueil</a>
-            <a href="/profil/">Profil</a>
-            <a href="/sujet/">Sujets</a>
+            <div class="nav-container">
+                <a href="/" >Accueil</a>
+                <a href="/profil/" class="active">Profils</a>
+                <a href="/sujet/" >Sujets</a>
+            </div>
         </nav>
     </header>
 
@@ -25,19 +32,35 @@
         
 <div class="list-page">
     <h1>Profils</h1>
-    <ul class="items-list">
+    <p>Liste des profils de personnalités politiques</p>
+    
+    <div class="items-grid">
         
-        <li><a href="/profil/jean-luc-melenchon.html">Jean-Luc Mélenchon</a></li>
+        <div class="item-card">
+            <h3><a href="/profil/jean-luc-melenchon.html">Jean-Luc Mélenchon</a></h3>
+            <p>Profil de Jean-Luc Mélenchon</p>
+        </div>
         
-        <li><a href="/profil/emmanuel-macron.html">Emmanuel Macron</a></li>
+        <div class="item-card">
+            <h3><a href="/profil/emmanuel-macron.html">Emmanuel Macron</a></h3>
+            <p>Profil de Emmanuel Macron</p>
+        </div>
         
-    </ul>
+    </div>
 </div>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 CasierPolitique.com - Aucun cookie, aucun tracker</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/mentions-legales">Mentions légales</a>
+                <a href="/suggestions">Suggestions</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2024 CasierPolitique.com - Aucun cookie, aucun tracker
+            </div>
+        </div>
     </footer>
 
     <!-- Script de redirection pour éviter les miroirs -->
