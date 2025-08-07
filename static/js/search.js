@@ -57,13 +57,13 @@ class LocalSearch {
             }
         }
 
-        // Recherche dans les thèmes
-        if (this.index.themes) {
-            for (const theme of this.index.themes) {
-                if (this.matchesQuery(theme, query)) {
+        // Recherche dans les sujets
+        if (this.index.sujets) {
+            for (const sujet of this.index.sujets) {
+                if (this.matchesQuery(sujet, query)) {
                     results.push({
-                        type: 'theme',
-                        ...theme
+                        type: 'sujet',
+                        ...sujet
                     });
                 }
             }
@@ -90,7 +90,7 @@ class LocalSearch {
         const html = results.map(result => `
             <div class="search-result">
                 <h3><a href="${result.url}">${result.title}</a></h3>
-                <p class="result-type">${result.type === 'profil' ? 'Profil' : 'Thème'}</p>
+                <p class="result-type">${result.type === 'profil' ? 'Profil' : 'Sujet'}</p>
                 ${result.description ? `<p>${result.description}</p>` : ''}
             </div>
         `).join('');

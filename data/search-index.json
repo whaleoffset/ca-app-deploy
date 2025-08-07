@@ -1,19 +1,37 @@
 {
   "profils": [
     {
+      "title": "Jean-Luc Mélenchon",
+      "url": "/profil/jean-luc-melenchon.html",
+      "description": "Profil de Jean-Luc Mélenchon",
+      "type": "profil"
+    },
+    {
       "title": "Emmanuel Macron",
       "url": "/profil/emmanuel-macron.html",
       "description": "Profil de Emmanuel Macron",
       "type": "profil"
     }
   ],
-  "themes": [
+  "sujets": [
     {
-      "title": "Réforme des retraites",
-      "url": "/theme/retraites.html",
-      "description": "Thème : Réforme des retraites",
-      "type": "theme"
+      "title": "Nicolas qui paie",
+      "url": "/sujet/nicolas-qui-paie.html",
+      "description": "Sujet : Nicolas qui paie",
+      "type": "sujet"
+    },
+    {
+      "title": "Attentats du 7 octobre",
+      "url": "/sujet/attentats-7-octobre.html",
+      "description": "Sujet : Attentats du 7 octobre",
+      "type": "sujet"
+    },
+    {
+      "title": "Jeux olympiques de Paris",
+      "url": "/sujet/jeux-olympiques-paris.html",
+      "description": "Sujet : Jeux olympiques de Paris",
+      "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-07T10:40:58.466341"
+  "generated_at": "2025-08-07T11:11:46.646496"
 }
