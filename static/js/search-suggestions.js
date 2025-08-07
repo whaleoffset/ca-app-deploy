@@ -63,9 +63,15 @@ class SearchSuggestions {
         const queryLower = query.toLowerCase();
         const filteredSuggestions = this.suggestions.filter(suggestion => {
             const textLower = suggestion.text.toLowerCase();
-            // Recherche plus flexible : recherche dans tous les mots
+            
+            // Recherche directe dans le texte complet
+            if (textLower.includes(queryLower)) {
+                return true;
+            }
+            
+            // Recherche par mots individuels
             const words = textLower.split(/\s+/);
-            return words.some(word => word.includes(queryLower)) || textLower.includes(queryLower);
+            return words.some(word => word.includes(queryLower));
         }).slice(0, 8); // Limiter à 8 suggestions
 
         this.displaySuggestions(filteredSuggestions);

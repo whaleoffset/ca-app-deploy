@@ -11,6 +11,18 @@
       "url": "/profil/emmanuel-macron.html",
       "description": "Profil de Emmanuel Macron",
       "type": "profil"
+    },
+    {
+      "title": "Sandrine Rousseau",
+      "url": "/profil/sandrine-rousseau.html",
+      "description": "Profil de Sandrine Rousseau",
+      "type": "profil"
+    },
+    {
+      "title": "Marine Le Pen",
+      "url": "/profil/marine-le-pen.html",
+      "description": "Profil de Marine Le Pen",
+      "type": "profil"
     }
   ],
   "sujets": [
@@ -33,5 +45,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-07T14:33:57.293736"
+  "generated_at": "2025-08-07T14:39:20.711368"
 }
