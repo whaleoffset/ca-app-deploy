@@ -214,14 +214,14 @@ main {
 }
 
 .source-reference.missing {
-    color: #e74c3c;
-    background-color: rgba(231, 76, 60, 0.1);
+    color: #8b0000;
+    background-color: rgba(139, 0, 0, 0.1);
     cursor: help;
 }
 
 .source-reference.missing:hover {
-    color: #c0392b;
-    background-color: rgba(231, 76, 60, 0.2);
+    color: #660000;
+    background-color: rgba(139, 0, 0, 0.2);
 }
 
 

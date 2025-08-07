@@ -31,9 +31,9 @@
       "type": "profil"
     },
     {
-      "title": "Prenom Nom",
+      "title": "Gabriel Attal",
       "url": "/profil/gabriel-attal.html",
-      "description": "Profil de Prenom Nom",
+      "description": "Profil de Gabriel Attal",
       "type": "profil"
     },
     {
@@ -63,5 +63,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-07T16:05:22.685309"
+  "generated_at": "2025-08-07T16:13:17.690645"
 }
