@@ -793,4 +793,21 @@ altcha-widget::part(button):hover {
 altcha-widget::part(button):disabled {
     background: #95a5a6;
     cursor: not-allowed;
+}
+
+/* Champ caché pour détecter les bots */
+.form-group[style*="display: none"] {
+    display: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.form-group[style*="display: none"] input {
+    display: none !important;
 } 

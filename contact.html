@@ -38,6 +38,12 @@
         N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.</p>
         
         <form class="contact-form" id="contactForm">
+            <!-- Champ caché pour détecter les bots -->
+            <div class="form-group" style="display: none !important; position: absolute !important; left: -9999px !important;">
+                <label for="website">Site web :</label>
+                <input type="text" id="website" name="website" autocomplete="off" tabindex="-1">
+            </div>
+            
             <div class="form-group">
                 <label for="page">Page concernée :</label>
                 <input type="text" id="page" name="page" placeholder="Ex: /profil/emmanuel-macron ou /sujet/jeux-olympiques-paris">
@@ -80,7 +86,7 @@
 </div>
 
 <!-- Altcha Captcha - Chargé uniquement sur cette page -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/@altcha/altcha@1.0.0/dist/altcha.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/altcha@2.0.0/dist/altcha.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -96,8 +102,16 @@ document.addEventListener('DOMContentLoaded', function() {
         // Récupérer les données du formulaire
         const page = document.getElementById('page').value;
         const message = document.getElementById('message').value;
+        const website = document.getElementById('website').value;
         
-        console.log('📝 Données du formulaire:', { page, message });
+        console.log('📝 Données du formulaire:', { page, message, websiteFilled: !!website });
+        
+        // Validation du champ caché (détection de bot)
+        if (website.trim()) {
+            console.log('🚫 Bot détecté');
+            showMessage('Erreur de validation', 'error');
+            return;
+        }
         
         // Validation du message
         if (!message.trim()) {
@@ -127,7 +141,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const requestData = {
             page: page,
             message: message,
-            captchaToken: captchaToken
+            captchaToken: captchaToken,
+            website: website
         };
         
         console.log('📤 Données à envoyer:', requestData);
