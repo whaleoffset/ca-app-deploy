@@ -37,6 +37,12 @@
       "type": "profil"
     },
     {
+      "title": "Jordan Bardella",
+      "url": "/profil/jordan-bardella.html",
+      "description": "Profil de Jordan Bardella",
+      "type": "profil"
+    },
+    {
       "title": "Thomas Thévenoud",
       "url": "/profil/thomas-thevenoud.html",
       "description": "Profil de Thomas Thévenoud",
@@ -99,5 +105,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-08T13:02:30.498140"
+  "generated_at": "2025-08-08T13:28:33.196873"
 }
