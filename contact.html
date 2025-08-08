@@ -100,32 +100,33 @@ document.addEventListener('DOMContentLoaded', function() {
     const formMessage = document.getElementById('formMessage');
     const captcha = document.getElementById('captcha');
     
-    // Attendre que le widget Altcha soit chargé
-    function waitForAltcha() {
-        return new Promise((resolve) => {
-            const checkAltcha = () => {
-                if (captcha && captcha.shadowRoot) {
-                    console.log('✅ Widget Altcha chargé');
-                    resolve(true);
-                } else {
-                    console.log('⏳ Widget Altcha en cours de chargement...');
-                    setTimeout(checkAltcha, 100);
-                }
-            };
-            checkAltcha();
-        });
+    // Variable pour tracker l'état du widget
+    let altchaReady = false;
+    
+    // Fonction pour vérifier si le widget est prêt
+    function checkAltchaReady() {
+        if (captcha && captcha.shadowRoot) {
+            console.log('✅ Widget Altcha chargé');
+            altchaReady = true;
+        } else {
+            console.log('⏳ Widget Altcha en cours de chargement...');
+            setTimeout(checkAltchaReady, 500);
+        }
     }
     
-    // Attendre que le widget soit prêt
-    waitForAltcha();
+    // Commencer à vérifier le widget
+    checkAltchaReady();
     
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         
-        // Attendre que le widget Altcha soit complètement chargé
-        await waitForAltcha();
-        
         console.log('🚀 Début de soumission du formulaire');
+        console.log('🔍 État du formulaire:', {
+            formExists: !!form,
+            submitBtnExists: !!submitBtn,
+            captchaExists: !!captcha,
+            altchaReady: altchaReady
+        });
         
         // Récupérer les données du formulaire
         const page = document.getElementById('page').value;
