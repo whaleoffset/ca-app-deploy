@@ -114,13 +114,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Fonction pour attendre que le widget soit prêt
+    // Fonction pour attendre que le widget soit prêt (avec timeout)
     function waitForAltchaReady() {
         return new Promise((resolve) => {
+            let attempts = 0;
+            const maxAttempts = 50; // 5 secondes max
+            
             const check = () => {
+                attempts++;
                 if (captcha && captcha.shadowRoot) {
                     console.log('✅ Widget Altcha prêt pour la soumission');
                     resolve(true);
+                } else if (attempts >= maxAttempts) {
+                    console.log('⚠️ Timeout: Widget Altcha non chargé, continuation sans captcha');
+                    resolve(false);
                 } else {
                     setTimeout(check, 100);
                 }
@@ -137,14 +144,15 @@ document.addEventListener('DOMContentLoaded', function() {
         
         console.log('🚀 Début de soumission du formulaire');
         
-        // Attendre que le widget Altcha soit prêt
-        await waitForAltchaReady();
+        // Attendre que le widget Altcha soit prêt (avec timeout)
+        const widgetReady = await waitForAltchaReady();
         
         console.log('🔍 État du formulaire:', {
             formExists: !!form,
             submitBtnExists: !!submitBtn,
             captchaExists: !!captcha,
-            altchaReady: altchaReady
+            altchaReady: altchaReady,
+            widgetReady: widgetReady
         });
         
         // Récupérer les données du formulaire
@@ -190,15 +198,37 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!captchaToken && captcha.token) {
                 captchaToken = captcha.token;
             }
-            
-            console.log('🔍 État du captcha:', {
-                hasToken: !!captchaToken,
-                token: captchaToken,
-                attributes: captcha.getAttributeNames(),
-                hasShadowRoot: !!captcha.shadowRoot,
-                shadowRootChildren: captcha.shadowRoot ? captcha.shadowRoot.children.length : 0
-            });
         }
+        
+        // Méthode 4: Chercher dans le formulaire
+        if (!captchaToken) {
+            const formInputs = form.querySelectorAll('input[type="hidden"]');
+            for (let input of formInputs) {
+                if (input.name === 'altcha' || input.name === 'captcha' || input.name === 'token') {
+                    captchaToken = input.value;
+                    break;
+                }
+            }
+        }
+        
+        // Méthode 5: Chercher par nom d'attribut
+        if (!captchaToken) {
+            const altchaInput = form.querySelector('input[name="altcha"]');
+            if (altchaInput) {
+                captchaToken = altchaInput.value;
+            }
+        }
+        
+        console.log('🔍 État du captcha:', {
+            hasToken: !!captchaToken,
+            token: captchaToken,
+            captchaExists: !!captcha,
+            attributes: captcha ? captcha.getAttributeNames() : [],
+            hasShadowRoot: captcha ? !!captcha.shadowRoot : false,
+            shadowRootChildren: captcha && captcha.shadowRoot ? captcha.shadowRoot.children.length : 0,
+            formInputs: form.querySelectorAll('input').length,
+            hiddenInputs: form.querySelectorAll('input[type="hidden"]').length
+        });
         
         if (!captchaToken) {
             console.log('❌ Validation échouée: captcha non résolu');
