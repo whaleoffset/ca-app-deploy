@@ -106,13 +106,13 @@ document.addEventListener('DOMContentLoaded', function() {
         };
         
         console.log('📤 Données à envoyer:', requestData);
-        console.log('🌐 URL de destination: https://regal-nasturtium-30b87d.netlify.app/api/contact');
+        console.log('🌐 URL de destination: https://regal-nasturtium-30b87d.netlify.app/.netlify/functions/contact');
         
         try {
             console.log('🔄 Envoi de la requête...');
             
             // Envoyer vers l'API Netlify
-            const response = await fetch('https://regal-nasturtium-30b87d.netlify.app/api/contact', {
+            const response = await fetch('https://regal-nasturtium-30b87d.netlify.app/.netlify/functions/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
