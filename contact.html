@@ -114,6 +114,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // Fonction pour attendre que le widget soit prêt
+    function waitForAltchaReady() {
+        return new Promise((resolve) => {
+            const check = () => {
+                if (captcha && captcha.shadowRoot) {
+                    console.log('✅ Widget Altcha prêt pour la soumission');
+                    resolve(true);
+                } else {
+                    setTimeout(check, 100);
+                }
+            };
+            check();
+        });
+    }
+    
     // Commencer à vérifier le widget
     checkAltchaReady();
     
@@ -121,6 +136,10 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         
         console.log('🚀 Début de soumission du formulaire');
+        
+        // Attendre que le widget Altcha soit prêt
+        await waitForAltchaReady();
+        
         console.log('🔍 État du formulaire:', {
             formExists: !!form,
             submitBtnExists: !!submitBtn,
@@ -154,14 +173,30 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Essayer plusieurs méthodes pour récupérer le token
         if (captcha) {
+            // Méthode 1: Attributs directs
             captchaToken = captcha.getAttribute('token') || 
                           captcha.getAttribute('altcha') ||
                           captcha.value;
             
+            // Méthode 2: Shadow DOM
+            if (!captchaToken && captcha.shadowRoot) {
+                const hiddenInput = captcha.shadowRoot.querySelector('input[type="hidden"]');
+                if (hiddenInput) {
+                    captchaToken = hiddenInput.value;
+                }
+            }
+            
+            // Méthode 3: Propriété du widget
+            if (!captchaToken && captcha.token) {
+                captchaToken = captcha.token;
+            }
+            
             console.log('🔍 État du captcha:', {
                 hasToken: !!captchaToken,
                 token: captchaToken,
-                attributes: captcha.getAttributeNames()
+                attributes: captcha.getAttributeNames(),
+                hasShadowRoot: !!captcha.shadowRoot,
+                shadowRootChildren: captcha.shadowRoot ? captcha.shadowRoot.children.length : 0
             });
         }
         
