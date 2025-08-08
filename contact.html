@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CasierPolitique.com</title>
+    <meta name="description" content="Contactez-nous pour toute question ou suggestion concernant CasierPolitique.com">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.casierpolitique.com/contact">
+    
+    <!-- CSS à ajouter -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-title">
+                <a href="/">Casier Politique</a>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <a href="/" >Accueil</a>
+                <a href="/profil/" >Profils</a>
+                <a href="/sujet/" >Sujets</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+<div class="profil">
+    <h1>Contact</h1>
+    <div class="content">
+        <h2>Nous contacter</h2>
+        <p>Vous avez une question, une suggestion ou vous souhaitez nous faire part d'une information ? 
+        N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.</p>
+        
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="page">Page concernée :</label>
+                <input type="text" id="page" name="page" placeholder="Ex: /profil/emmanuel-macron ou /sujet/jeux-olympiques-paris">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" rows="6" placeholder="Décrivez votre question, suggestion ou information..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit" id="submitBtn">Envoyer le message</button>
+            
+            <div id="formMessage" class="form-message" style="display: none;"></div>
+        </form>
+        
+        <h2>Que pouvez-vous nous dire ?</h2>
+        <ul>
+            <li>Nouvelles personnalités politiques à ajouter</li>
+            <li>Sujets d'actualité à couvrir</li>
+            <li>Améliorations de l'interface</li>
+            <li>Nouvelles fonctionnalités</li>
+            <li>Corrections d'erreurs</li>
+            <li>Informations à ajouter sur une page existante</li>
+        </ul>
+        
+        <h2>Merci</h2>
+        <p>Merci de votre intérêt pour CasierPolitique.com et de votre contribution 
+        à l'amélioration de ce projet !</p>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessage = document.getElementById('formMessage');
+    
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        // Récupérer les données du formulaire
+        const page = document.getElementById('page').value;
+        const message = document.getElementById('message').value;
+        
+        // Validation
+        if (!message.trim()) {
+            showMessage('Le message est requis', 'error');
+            return;
+        }
+        
+        // Désactiver le bouton et montrer le loading
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours...';
+        hideMessage();
+        
+        try {
+            // Envoyer vers l'API Netlify
+            const response = await fetch('https://regal-nasturtium-30b87d.netlify.app/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    page: page,
+                    message: message
+                })
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok && data.success) {
+                showMessage('Votre message a été envoyé avec succès !', 'success');
+                form.reset();
+            } else {
+                showMessage(data.error || 'Une erreur est survenue', 'error');
+            }
+            
+        } catch (error) {
+            console.error('Erreur:', error);
+            showMessage('Erreur de connexion. Veuillez réessayer.', 'error');
+        } finally {
+            // Réactiver le bouton
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Envoyer le message';
+        }
+    });
+    
+    function showMessage(text, type) {
+        formMessage.textContent = text;
+        formMessage.className = `form-message ${type}`;
+        formMessage.style.display = 'block';
+        
+        // Scroll vers le message
+        formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    
+    function hideMessage() {
+        formMessage.style.display = 'none';
+    }
+});
+</script>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/mentions-legales">Mentions légales</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2025 CasierPolitique.com
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/static/js/redirect.js"></script>
+    <script src="/static/js/search-suggestions.js"></script>
+    
+</body>
+</html> 
