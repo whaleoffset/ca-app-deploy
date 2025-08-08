@@ -101,16 +101,29 @@ document.addEventListener('DOMContentLoaded', function() {
     const captcha = document.getElementById('captcha');
     
     // Attendre que le widget Altcha soit chargé
-    setTimeout(() => {
-        if (captcha && captcha.shadowRoot) {
-            console.log('✅ Widget Altcha chargé');
-        } else {
-            console.log('⏳ Widget Altcha en cours de chargement...');
-        }
-    }, 1000);
+    function waitForAltcha() {
+        return new Promise((resolve) => {
+            const checkAltcha = () => {
+                if (captcha && captcha.shadowRoot) {
+                    console.log('✅ Widget Altcha chargé');
+                    resolve(true);
+                } else {
+                    console.log('⏳ Widget Altcha en cours de chargement...');
+                    setTimeout(checkAltcha, 100);
+                }
+            };
+            checkAltcha();
+        });
+    }
+    
+    // Attendre que le widget soit prêt
+    waitForAltcha();
     
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
+        
+        // Attendre que le widget Altcha soit complètement chargé
+        await waitForAltcha();
         
         console.log('🚀 Début de soumission du formulaire');
         
@@ -136,7 +149,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Validation du captcha
-        const captchaToken = captcha ? captcha.getAttribute('token') : null;
+        let captchaToken = null;
+        
+        // Essayer plusieurs méthodes pour récupérer le token
+        if (captcha) {
+            captchaToken = captcha.getAttribute('token') || 
+                          captcha.getAttribute('altcha') ||
+                          captcha.value;
+            
+            console.log('🔍 État du captcha:', {
+                hasToken: !!captchaToken,
+                token: captchaToken,
+                attributes: captcha.getAttributeNames()
+            });
+        }
+        
         if (!captchaToken) {
             console.log('❌ Validation échouée: captcha non résolu');
             showMessage('Veuillez compléter le captcha', 'error');
