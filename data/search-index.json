@@ -13,15 +13,33 @@
       "type": "profil"
     },
     {
-      "title": "Prenom Nom",
+      "title": "Leïla Chaibi",
+      "url": "/profil/leila-chaibi.html",
+      "description": "Profil de Leïla Chaibi",
+      "type": "profil"
+    },
+    {
+      "title": "Eric Piolle",
+      "url": "/profil/eric-piolle.html",
+      "description": "Profil de Eric Piolle",
+      "type": "profil"
+    },
+    {
+      "title": "Laurent Wauqiez",
       "url": "/profil/laurent-wauquiez.html",
-      "description": "Profil de Prenom Nom",
+      "description": "Profil de Laurent Wauqiez",
       "type": "profil"
     },
     {
       "title": "Bruno Le Maire",
       "url": "/profil/bruno-le-maire.html",
       "description": "Profil de Bruno Le Maire",
+      "type": "profil"
+    },
+    {
+      "title": "Clémentine Autain",
+      "url": "/profil/clementine-autain.html",
+      "description": "Profil de Clémentine Autain",
       "type": "profil"
     },
     {
@@ -63,5 +81,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-07T17:48:12.511785"
+  "generated_at": "2025-08-08T09:43:09.392650"
 }

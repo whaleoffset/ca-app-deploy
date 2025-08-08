@@ -349,6 +349,23 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* WIP message */
+.wip-message {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wip-message p {
+    color: #856404;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
 .suggestions {
     background: white;
     padding: 2rem;

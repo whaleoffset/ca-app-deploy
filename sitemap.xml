@@ -31,12 +31,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/leila-chaibi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/eric-piolle.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/laurent-wauquiez.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/bruno-le-maire.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/clementine-autain.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
