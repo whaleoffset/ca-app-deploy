@@ -218,12 +218,15 @@ main {
     background-color: rgba(139, 0, 0, 0.1);
     cursor: help;
     font-size: 0.8em;
-    width: 1.2em;
+    width: auto;
+    min-width: 1.2em;
     height: 1.2em;
     line-height: 1.2em;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 0.6em;
     font-weight: bold;
+    padding: 0 0.3em;
+    white-space: nowrap;
 }
 
 .source-reference.missing:hover {

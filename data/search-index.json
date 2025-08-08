@@ -1,6 +1,12 @@
 {
   "profils": [
     {
+      "title": "Alexis Kohler",
+      "url": "/profil/alexis-kohler.html",
+      "description": "Profil de Alexis Kohler",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Luc Mélenchon",
       "url": "/profil/jean-luc-melenchon.html",
       "description": "Profil de Jean-Luc Mélenchon",
@@ -19,9 +25,21 @@
       "type": "profil"
     },
     {
+      "title": "Abdel Aït Omar",
+      "url": "/profil/abdel-ait-omar.html",
+      "description": "Profil de Abdel Aït Omar",
+      "type": "profil"
+    },
+    {
       "title": "Eric Piolle",
       "url": "/profil/eric-piolle.html",
       "description": "Profil de Eric Piolle",
+      "type": "profil"
+    },
+    {
+      "title": "Thomas Thévenoud",
+      "url": "/profil/thomas-thevenoud.html",
+      "description": "Profil de Thomas Thévenoud",
       "type": "profil"
     },
     {
@@ -81,5 +99,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-08T09:54:53.315976"
+  "generated_at": "2025-08-08T12:45:46.890808"
 }

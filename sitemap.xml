@@ -21,6 +21,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/alexis-kohler.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/jean-luc-melenchon.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -36,7 +41,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/abdel-ait-omar.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/eric-piolle.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/thomas-thevenoud.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
