@@ -142,6 +142,10 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         
+        // Désactiver immédiatement le bouton pour éviter les clics multiples
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours...';
+        
         console.log('🚀 Début de soumission du formulaire');
         
         // Attendre que le widget Altcha soit prêt (avec timeout)
@@ -239,9 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('✅ Captcha validé');
         console.log('✅ Validation réussie');
         
-        // Désactiver le bouton et montrer le loading
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Envoi en cours...';
+        // Masquer les messages précédents
         hideMessage();
         
         const requestData = {
