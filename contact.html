@@ -86,13 +86,28 @@
 </div>
 
 <!-- Altcha Captcha - Chargé uniquement sur cette page -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/@altcha/altcha@1.0.0/dist/altcha.js"></script>
+<script
+  async
+  defer
+  src="https://cdn.jsdelivr.net/gh/altcha-org/altcha@main/dist/altcha.min.js"
+  type="module"
+></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     const submitBtn = document.getElementById('submitBtn');
     const formMessage = document.getElementById('formMessage');
+    const captcha = document.getElementById('captcha');
+    
+    // Attendre que le widget Altcha soit chargé
+    setTimeout(() => {
+        if (captcha && captcha.shadowRoot) {
+            console.log('✅ Widget Altcha chargé');
+        } else {
+            console.log('⏳ Widget Altcha en cours de chargement...');
+        }
+    }, 1000);
     
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
@@ -121,16 +136,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Validation du captcha
-        const captcha = document.getElementById('captcha');
-        if (!captcha || !captcha.hasAttribute('token')) {
+        const captchaToken = captcha ? captcha.getAttribute('token') : null;
+        if (!captchaToken) {
             console.log('❌ Validation échouée: captcha non résolu');
             showMessage('Veuillez compléter le captcha', 'error');
             return;
         }
         
-        const captchaToken = captcha.getAttribute('token');
         console.log('✅ Captcha validé');
-        
         console.log('✅ Validation réussie');
         
         // Désactiver le bouton et montrer le loading
@@ -174,6 +187,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log('✅ Succès!');
                 showMessage('Votre message a été envoyé avec succès !', 'success');
                 form.reset();
+                // Réinitialiser le captcha
+                if (captcha) {
+                    captcha.removeAttribute('token');
+                }
             } else {
                 console.log('❌ Erreur dans la réponse:', data.error);
                 showMessage(data.error || 'Une erreur est survenue', 'error');
