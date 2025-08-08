@@ -78,47 +78,75 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         
+        console.log('🚀 Début de soumission du formulaire');
+        
         // Récupérer les données du formulaire
         const page = document.getElementById('page').value;
         const message = document.getElementById('message').value;
         
+        console.log('📝 Données du formulaire:', { page, message });
+        
         // Validation
         if (!message.trim()) {
+            console.log('❌ Validation échouée: message vide');
             showMessage('Le message est requis', 'error');
             return;
         }
+        
+        console.log('✅ Validation réussie');
         
         // Désactiver le bouton et montrer le loading
         submitBtn.disabled = true;
         submitBtn.textContent = 'Envoi en cours...';
         hideMessage();
         
+        const requestData = {
+            page: page,
+            message: message
+        };
+        
+        console.log('📤 Données à envoyer:', requestData);
+        console.log('🌐 URL de destination: https://regal-nasturtium-30b87d.netlify.app/api/contact');
+        
         try {
+            console.log('🔄 Envoi de la requête...');
+            
             // Envoyer vers l'API Netlify
             const response = await fetch('https://regal-nasturtium-30b87d.netlify.app/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({
-                    page: page,
-                    message: message
-                })
+                body: JSON.stringify(requestData)
+            });
+            
+            console.log('📥 Réponse reçue:', {
+                status: response.status,
+                statusText: response.statusText,
+                ok: response.ok,
+                headers: Object.fromEntries(response.headers.entries())
             });
             
             const data = await response.json();
+            console.log('📄 Données de réponse:', data);
             
             if (response.ok && data.success) {
+                console.log('✅ Succès!');
                 showMessage('Votre message a été envoyé avec succès !', 'success');
                 form.reset();
             } else {
+                console.log('❌ Erreur dans la réponse:', data.error);
                 showMessage(data.error || 'Une erreur est survenue', 'error');
             }
             
         } catch (error) {
-            console.error('Erreur:', error);
+            console.error('💥 Erreur de connexion:', error);
+            console.error('💥 Type d\'erreur:', error.name);
+            console.error('💥 Message d\'erreur:', error.message);
+            console.error('💥 Stack trace:', error.stack);
             showMessage('Erreur de connexion. Veuillez réessayer.', 'error');
         } finally {
+            console.log('🏁 Fin de traitement');
             // Réactiver le bouton
             submitBtn.disabled = false;
             submitBtn.textContent = 'Envoyer le message';
