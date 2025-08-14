@@ -1,39 +1,39 @@
 {
   "profils": [
     {
-      "title": "Alexis Kohler",
-      "url": "/profil/alexis-kohler.html",
-      "description": "Profil de Alexis Kohler",
+      "title": "Yaël Braun-Pivet",
+      "url": "/profil/yael-braun-pivet.html",
+      "description": "Profil de Yaël Braun-Pivet",
       "type": "profil"
     },
     {
-      "title": "Jean-Luc Mélenchon",
-      "url": "/profil/jean-luc-melenchon.html",
-      "description": "Profil de Jean-Luc Mélenchon",
+      "title": "Jean‑Christophe Cambadélis",
+      "url": "/profil/jean-christophe-cambadelis.html",
+      "description": "Profil de Jean‑Christophe Cambadélis",
       "type": "profil"
     },
     {
-      "title": "Emmanuel Macron",
-      "url": "/profil/emmanuel-macron.html",
-      "description": "Profil de Emmanuel Macron",
+      "title": "Claire Landais",
+      "url": "/profil/claire-landais.html",
+      "description": "Profil de Claire Landais",
       "type": "profil"
     },
     {
-      "title": "Leïla Chaibi",
-      "url": "/profil/leila-chaibi.html",
-      "description": "Profil de Leïla Chaibi",
+      "title": "Philippe Baptiste",
+      "url": "/profil/philippe-baptiste.html",
+      "description": "Profil de Philippe Baptiste",
       "type": "profil"
     },
     {
-      "title": "Abdel Aït Omar",
-      "url": "/profil/abdel-ait-omar.html",
-      "description": "Profil de Abdel Aït Omar",
+      "title": "Sébastien Lecornu",
+      "url": "/profil/sebastien-lecornu.html",
+      "description": "Profil de Sébastien Lecornu",
       "type": "profil"
     },
     {
-      "title": "Eric Piolle",
-      "url": "/profil/eric-piolle.html",
-      "description": "Profil de Eric Piolle",
+      "title": "Christiane Taubira",
+      "url": "/profil/christiane-taubira.html",
+      "description": "Profil de Christiane Taubira",
       "type": "profil"
     },
     {
@@ -43,33 +43,45 @@
       "type": "profil"
     },
     {
-      "title": "Thomas Thévenoud",
-      "url": "/profil/thomas-thevenoud.html",
-      "description": "Profil de Thomas Thévenoud",
+      "title": "Alexis Kohler",
+      "url": "/profil/alexis-kohler.html",
+      "description": "Profil de Alexis Kohler",
       "type": "profil"
     },
     {
-      "title": "Laurent Wauqiez",
-      "url": "/profil/laurent-wauquiez.html",
-      "description": "Profil de Laurent Wauqiez",
+      "title": "Amélie de Montchalin",
+      "url": "/profil/amelie-de-montchalin.html",
+      "description": "Profil de Amélie de Montchalin",
       "type": "profil"
     },
     {
-      "title": "Bruno Le Maire",
-      "url": "/profil/bruno-le-maire.html",
-      "description": "Profil de Bruno Le Maire",
+      "title": "",
+      "url": "/profil/gerald-darmanin.html",
+      "description": "Profil de ",
       "type": "profil"
     },
     {
-      "title": "Clémentine Autain",
-      "url": "/profil/clementine-autain.html",
-      "description": "Profil de Clémentine Autain",
+      "title": "Éric Dupond-Moretti",
+      "url": "/profil/eric-dupond-moretti.html",
+      "description": "Profil de Éric Dupond-Moretti",
       "type": "profil"
     },
     {
-      "title": "Sandrine Rousseau",
-      "url": "/profil/sandrine-rousseau.html",
-      "description": "Profil de Sandrine Rousseau",
+      "title": "Abdel Aït Omar",
+      "url": "/profil/abdel-ait-omar.html",
+      "description": "Profil de Abdel Aït Omar",
+      "type": "profil"
+    },
+    {
+      "title": "Alexis Corbière",
+      "url": "/profil/alexis-corbiere.html",
+      "description": "Profil de Alexis Corbière",
+      "type": "profil"
+    },
+    {
+      "title": "Éric Lombard",
+      "url": "/profil/eric-lombard.html",
+      "description": "Profil de Éric Lombard",
       "type": "profil"
     },
     {
@@ -79,17 +91,155 @@
       "type": "profil"
     },
     {
+      "title": "Annie Genevard",
+      "url": "/profil/annie-genevard.html",
+      "description": "Profil de Annie Genevard",
+      "type": "profil"
+    },
+    {
+      "title": "Jérôme Peyrat",
+      "url": "/profil/jerome-peyrat.html",
+      "description": "Profil de Jérôme Peyrat",
+      "type": "profil"
+    },
+    {
+      "title": "Clémentine Autain",
+      "url": "/profil/clementine-autain.html",
+      "description": "Profil de Clémentine Autain",
+      "type": "profil"
+    },
+    {
+      "title": "Michèle Sabban",
+      "url": "/profil/michele-sabban.html",
+      "description": "Profil de Michèle Sabban",
+      "type": "profil"
+    },
+    {
+      "title": "Bruno Le Maire",
+      "url": "/profil/bruno-le-maire.html",
+      "description": "Profil de Bruno Le Maire",
+      "type": "profil"
+    },
+    {
+      "title": "Rachida Dati",
+      "url": "/profil/rachida-dati.html",
+      "description": "Profil de Rachida Dati",
+      "type": "profil"
+    },
+    {
+      "title": "Laurent Wauquiez",
+      "url": "/profil/laurent-wauquiez.html",
+      "description": "Profil de Laurent Wauquiez",
+      "type": "profil"
+    },
+    {
+      "title": "Agnès Pannier-Runacher",
+      "url": "/profil/agnes-pannier-runacher.html",
+      "description": "Profil de Agnès Pannier-Runacher",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Noël Barrot",
+      "url": "/profil/jean-noel-barrot.html",
+      "description": "Profil de Jean-Noël Barrot",
+      "type": "profil"
+    },
+    {
+      "title": "Bruno Retailleau",
+      "url": "/profil/bruno-retailleau.html",
+      "description": "Profil de Bruno Retailleau",
+      "type": "profil"
+    },
+    {
+      "title": "Sandrine Rousseau",
+      "url": "/profil/sandrine-rousseau.html",
+      "description": "Profil de Sandrine Rousseau",
+      "type": "profil"
+    },
+    {
       "title": "Marine Le Pen",
       "url": "/profil/marine-le-pen.html",
       "description": "Profil de Marine Le Pen",
+      "type": "profil"
+    },
+    {
+      "title": "Eric Piolle",
+      "url": "/profil/eric-piolle.html",
+      "description": "Profil de Eric Piolle",
+      "type": "profil"
+    },
+    {
+      "title": "Thomas Thévenoud",
+      "url": "/profil/thomas-thevenoud.html",
+      "description": "Profil de Thomas Thévenoud",
+      "type": "profil"
+    },
+    {
+      "title": "Patrick Mignola",
+      "url": "/profil/patrick-mignola.html",
+      "description": "Profil de Patrick Mignola",
+      "type": "profil"
+    },
+    {
+      "title": "Emmanuel Macron",
+      "url": "/profil/emmanuel-macron.html",
+      "description": "Profil de Emmanuel Macron",
+      "type": "profil"
+    },
+    {
+      "title": "Aurore Bergé",
+      "url": "/profil/aurore-berge.html",
+      "description": "Profil de Aurore Bergé",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Luc Mélenchon",
+      "url": "/profil/jean-luc-melenchon.html",
+      "description": "Profil de Jean-Luc Mélenchon",
+      "type": "profil"
+    },
+    {
+      "title": "Prenom Nom",
+      "url": "/profil/anne-hidalgo.html",
+      "description": "Profil de Prenom Nom",
+      "type": "profil"
+    },
+    {
+      "title": "Laurent Marcangeli",
+      "url": "/profil/laurent-marcangeli.html",
+      "description": "Profil de Laurent Marcangeli",
+      "type": "profil"
+    },
+    {
+      "title": "Élisabeth Borne",
+      "url": "/profil/elisabeth-borne.html",
+      "description": "Profil de Élisabeth Borne",
+      "type": "profil"
+    },
+    {
+      "title": "Leïla Chaibi",
+      "url": "/profil/leila-chaibi.html",
+      "description": "Profil de Leïla Chaibi",
+      "type": "profil"
+    },
+    {
+      "title": "Prenom Nom",
+      "url": "/profil/bruno-le-roux.html",
+      "description": "Profil de Prenom Nom",
+      "type": "profil"
+    },
+    {
+      "title": "Francois Bayrou",
+      "url": "/profil/francois-bayrou.html",
+      "description": "Profil de Francois Bayrou",
       "type": "profil"
     }
   ],
   "sujets": [
     {
-      "title": "Nicolas qui paie",
-      "url": "/sujet/nicolas-qui-paie.html",
-      "description": "Sujet : Nicolas qui paie",
+      "title": "Jeux olympiques de Paris",
+      "url": "/sujet/jeux-olympiques-paris.html",
+      "description": "Sujet : Jeux olympiques de Paris",
       "type": "sujet"
     },
     {
@@ -99,11 +249,11 @@
       "type": "sujet"
     },
     {
-      "title": "Jeux olympiques de Paris",
-      "url": "/sujet/jeux-olympiques-paris.html",
-      "description": "Sujet : Jeux olympiques de Paris",
+      "title": "Nicolas qui paie",
+      "url": "/sujet/nicolas-qui-paie.html",
+      "description": "Sujet : Nicolas qui paie",
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-08T17:37:07.786779"
+  "generated_at": "2025-08-14T14:47:14.288593"
 }

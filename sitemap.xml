@@ -21,32 +21,32 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/alexis-kohler.html</loc>
+    <loc>https://www.casierpolitique.com/profil/yael-braun-pivet.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/jean-luc-melenchon.html</loc>
+    <loc>https://www.casierpolitique.com/profil/jean-christophe-cambadelis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/emmanuel-macron.html</loc>
+    <loc>https://www.casierpolitique.com/profil/claire-landais.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/leila-chaibi.html</loc>
+    <loc>https://www.casierpolitique.com/profil/philippe-baptiste.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/abdel-ait-omar.html</loc>
+    <loc>https://www.casierpolitique.com/profil/sebastien-lecornu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/eric-piolle.html</loc>
+    <loc>https://www.casierpolitique.com/profil/christiane-taubira.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -56,27 +56,37 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/thomas-thevenoud.html</loc>
+    <loc>https://www.casierpolitique.com/profil/alexis-kohler.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/laurent-wauquiez.html</loc>
+    <loc>https://www.casierpolitique.com/profil/amelie-de-montchalin.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/bruno-le-maire.html</loc>
+    <loc>https://www.casierpolitique.com/profil/gerald-darmanin.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/clementine-autain.html</loc>
+    <loc>https://www.casierpolitique.com/profil/eric-dupond-moretti.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/sandrine-rousseau.html</loc>
+    <loc>https://www.casierpolitique.com/profil/abdel-ait-omar.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/alexis-corbiere.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/eric-lombard.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -86,12 +96,127 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/annie-genevard.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/jerome-peyrat.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/clementine-autain.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/michele-sabban.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/bruno-le-maire.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/rachida-dati.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/laurent-wauquiez.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/agnes-pannier-runacher.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/jean-noel-barrot.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/bruno-retailleau.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/sandrine-rousseau.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/marine-le-pen.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/sujet/nicolas-qui-paie.html</loc>
+    <loc>https://www.casierpolitique.com/profil/eric-piolle.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/thomas-thevenoud.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/patrick-mignola.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/emmanuel-macron.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/aurore-berge.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/jean-luc-melenchon.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/anne-hidalgo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/laurent-marcangeli.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/elisabeth-borne.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/leila-chaibi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/bruno-le-roux.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/francois-bayrou.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/sujet/jeux-olympiques-paris.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -101,7 +226,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/sujet/jeux-olympiques-paris.html</loc>
+    <loc>https://www.casierpolitique.com/sujet/nicolas-qui-paie.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
