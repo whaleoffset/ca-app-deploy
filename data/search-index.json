@@ -199,9 +199,9 @@
       "type": "profil"
     },
     {
-      "title": "Prenom Nom",
+      "title": "Anne Hidalgo",
       "url": "/profil/anne-hidalgo.html",
-      "description": "Profil de Prenom Nom",
+      "description": "Profil de Anne Hidalgo",
       "type": "profil"
     },
     {
@@ -223,9 +223,9 @@
       "type": "profil"
     },
     {
-      "title": "Prenom Nom",
+      "title": "Bruno Le Roux",
       "url": "/profil/bruno-le-roux.html",
-      "description": "Profil de Prenom Nom",
+      "description": "Profil de Bruno Le Roux",
       "type": "profil"
     },
     {
@@ -255,5 +255,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-14T14:47:14.288593"
+  "generated_at": "2025-08-14T15:17:48.802202"
 }
