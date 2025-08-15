@@ -70,8 +70,11 @@ class SearchSuggestions {
             }
             
             // Recherche par mots individuels
-            const words = textLower.split(/\s+/);
-            return words.some(word => word.includes(queryLower));
+            const queryWords = queryLower.split(/\s+/);
+            const titleWords = textLower.split(/\s+/);
+            return queryWords.every(queryWord => 
+                titleWords.some(titleWord => titleWord.includes(queryWord))
+            );
         }).slice(0, 8); // Limiter à 8 suggestions
 
         this.displaySuggestions(filteredSuggestions);

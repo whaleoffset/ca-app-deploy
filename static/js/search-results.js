@@ -23,7 +23,7 @@ function getQueryParameter(name) {
     var url = window.location.search;
     var regex = new RegExp('[?&]' + name + '=([^&#]*)');
     var results = regex.exec(url);
-    return results ? decodeURIComponent(results[1]) : null;
+    return results ? decodeURIComponent(results[1].replace(/\+/g, ' ')) : null;
 }
 
 function performSearch(query, searchData) {
@@ -39,8 +39,22 @@ function performSearch(query, searchData) {
             var profil = searchData.profils[i];
             var titleLower = profil.title.toLowerCase();
             
+            // Recherche exacte dans le titre
             if (titleLower.indexOf(queryLower) !== -1) {
                 results.profils.push(profil);
+            }
+            // Recherche par mots individuels
+            else {
+                var queryWords = queryLower.split(/\s+/);
+                var titleWords = titleLower.split(/\s+/);
+                var allWordsFound = queryWords.every(function(queryWord) {
+                    return titleWords.some(function(titleWord) {
+                        return titleWord.indexOf(queryWord) !== -1;
+                    });
+                });
+                if (allWordsFound) {
+                    results.profils.push(profil);
+                }
             }
         }
     }
@@ -51,8 +65,22 @@ function performSearch(query, searchData) {
             var sujet = searchData.sujets[i];
             var titleLower = sujet.title.toLowerCase();
             
+            // Recherche exacte dans le titre
             if (titleLower.indexOf(queryLower) !== -1) {
                 results.sujets.push(sujet);
+            }
+            // Recherche par mots individuels
+            else {
+                var queryWords = queryLower.split(/\s+/);
+                var titleWords = titleLower.split(/\s+/);
+                var allWordsFound = queryWords.every(function(queryWord) {
+                    return titleWords.some(function(titleWord) {
+                        return titleWord.indexOf(queryWord) !== -1;
+                    });
+                });
+                if (allWordsFound) {
+                    results.sujets.push(sujet);
+                }
             }
         }
     }
