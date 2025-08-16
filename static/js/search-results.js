@@ -157,4 +157,38 @@ function showNoResults(query) {
             '</div>' +
             '</div>';
     }
+    
+    // Logger la recherche non trouvée
+    logNotFoundSearch(query);
+}
+
+// Fonction pour logger les recherches non trouvées
+function logNotFoundSearch(query) {
+    // Préparer les données
+    var data = {
+        query: query,
+        date: new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
+    };
+    
+    // Envoyer vers la fonction Netlify
+    fetch('/.netlify/functions/logNotFound', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(function(response) {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(function(data) {
+        console.log('Search query logged successfully:', data);
+    })
+    .catch(function(error) {
+        console.error('Error logging search query:', error);
+        // Ne pas afficher d'erreur à l'utilisateur, c'est juste du logging
+    });
 } 
