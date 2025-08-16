@@ -12,15 +12,16 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
     
-    <!-- CSS à ajouter -->
-    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- CSS optimisé pour le rendu -->
+    <link rel="stylesheet" href="/static/css/style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/static/css/style.css"></noscript>
 </head>
 <body>
     <header>
         <div class="header-content">
             <div class="site-title">
                 <a href="/">
-                    <img src="/static/img/logo.png" alt="Logo Casier Politique" style="height: 2em; vertical-align: middle;" decoding="async">
+                    <img src="/static/img/logo.webp" alt="Logo Casier Politique" style="height: 2em; vertical-align: middle;" decoding="async">
                     Casier Politique
                 </a>
             </div>
