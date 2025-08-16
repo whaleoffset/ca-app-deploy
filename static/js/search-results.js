@@ -89,13 +89,6 @@ function performSearch(query, searchData) {
 }
 
 function displayResults(query, results) {
-    console.log('📊 [DEBUG] displayResults called:', {
-        query: query,
-        profils: results.profils.length,
-        sujets: results.sujets.length,
-        total: results.profils.length + results.sujets.length
-    });
-    
     // Mettre à jour le titre de la page
     document.title = 'Résultats pour "' + query + '" - CasierPolitique.com';
     
@@ -111,10 +104,7 @@ function displayResults(query, results) {
     
     // Afficher "aucun résultat" si nécessaire
     if (results.profils.length === 0 && results.sujets.length === 0) {
-        console.log('🚫 [DEBUG] No results found, calling showNoResults');
         showNoResults(query);
-    } else {
-        console.log('✅ [DEBUG] Results found, no logging needed');
     }
 }
 
@@ -152,11 +142,8 @@ function updateSection(type, items) {
 }
 
 function showNoResults(query) {
-    console.log('🚫 [DEBUG] showNoResults called for query:', query);
-    
     var container = document.querySelector('.results-container');
     if (container) {
-        console.log('📋 [DEBUG] Container found, updating innerHTML');
         container.innerHTML = 
             '<div class="no-results">' +
             '<p>Aucun résultat trouvé pour "' + query + '".</p>' +
@@ -169,27 +156,19 @@ function showNoResults(query) {
             '</ul>' +
             '</div>' +
             '</div>';
-    } else {
-        console.error('❌ [DEBUG] Container not found!');
     }
     
     // Logger la recherche non trouvée
-    console.log('📝 [DEBUG] Calling logNotFoundSearch...');
     logNotFoundSearch(query);
 }
 
 // Fonction pour logger les recherches non trouvées
 function logNotFoundSearch(query) {
-    console.log('🔍 [DEBUG] Starting logNotFoundSearch for query:', query);
-    
     // Préparer les données
     var data = {
         query: query,
         date: new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
     };
-    
-    console.log('📋 [DEBUG] Data prepared:', JSON.stringify(data, null, 2));
-    console.log('🚀 [DEBUG] Sending request to:', 'https://regal-nasturtium-30b87d.netlify.app/.netlify/functions/logNotFound');
     
     // Envoyer vers la fonction Netlify
     fetch('https://regal-nasturtium-30b87d.netlify.app/.netlify/functions/logNotFound', {
@@ -200,27 +179,16 @@ function logNotFoundSearch(query) {
         body: JSON.stringify(data)
     })
     .then(function(response) {
-        console.log('📋 [DEBUG] Response received:', {
-            status: response.status,
-            statusText: response.statusText,
-            ok: response.ok
-        });
-        
         if (!response.ok) {
-            throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+            throw new Error('Network response was not ok');
         }
         return response.json();
     })
-    .then(function(responseData) {
-        console.log('✅ [DEBUG] Search query logged successfully:', responseData);
+    .then(function(data) {
+        console.log('Search query logged successfully:', data);
     })
     .catch(function(error) {
-        console.error('❌ [DEBUG] Error logging search query:', error);
-        console.error('❌ [DEBUG] Error details:', {
-            name: error.name,
-            message: error.message,
-            stack: error.stack
-        });
+        console.error('Error logging search query:', error);
         // Ne pas afficher d'erreur à l'utilisateur, c'est juste du logging
     });
 } 
