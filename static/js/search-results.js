@@ -1,4 +1,29 @@
 // Gestion des résultats de recherche - Version simplifiée
+
+// Fonction d'échappement HTML globale pour sécuriser toutes les entrées
+function escapeHtml(text) {
+    if (!text) return '';
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Fonction de nettoyage et validation des queries
+function sanitizeQuery(query) {
+    if (!query) return '';
+    // Supprimer les caractères potentiellement dangereux
+    return query.replace(/[<>'"&]/g, function(match) {
+        switch(match) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '"': return '&quot;';
+            case "'": return '&#x27;';
+            case '&': return '&amp;';
+            default: return match;
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Récupérer le paramètre de recherche depuis l'URL de manière compatible
     var query = getQueryParameter('q');
@@ -89,8 +114,9 @@ function performSearch(query, searchData) {
 }
 
 function displayResults(query, results) {
-    // Mettre à jour le titre de la page
-    document.title = 'Résultats pour "' + query + '" - CasierPolitique.com';
+    // Mettre à jour le titre de la page de façon sécurisée
+    var safeQuery = sanitizeQuery(query);
+    document.title = 'Résultats pour "' + safeQuery + '" - CasierPolitique.com';
     
     // Mettre à jour la requête affichée de façon sécurisée
     var queryElement = document.querySelector('.search-query');
@@ -99,7 +125,7 @@ function displayResults(query, results) {
         
         var text1 = document.createTextNode('Recherche pour : ');
         var strong = document.createElement('strong');
-        strong.textContent = '"' + (query || '') + '"'; // textContent échappe automatiquement
+        strong.textContent = '"' + sanitizeQuery(query) + '"'; // Double protection
         
         queryElement.appendChild(text1);
         queryElement.appendChild(strong);
@@ -180,7 +206,7 @@ function showNoResults(query) {
         noResultsDiv.className = 'no-results';
         
         var p = document.createElement('p');
-        p.textContent = 'Aucun résultat trouvé pour "' + (query || '') + '".';
+        p.textContent = 'Aucun résultat trouvé pour "' + sanitizeQuery(query) + '".';
         
         var suggestionsDiv = document.createElement('div');
         suggestionsDiv.className = 'suggestions';
@@ -217,9 +243,9 @@ function showNoResults(query) {
 
 // Fonction pour logger les recherches non trouvées
 function logNotFoundSearch(query) {
-    // Préparer les données
+    // Préparer les données avec nettoyage
     var data = {
-        query: query,
+        query: sanitizeQuery(query), // Nettoyer avant envoi au serveur
         date: new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
     };
     
