@@ -92,10 +92,17 @@ function displayResults(query, results) {
     // Mettre à jour le titre de la page
     document.title = 'Résultats pour "' + query + '" - CasierPolitique.com';
     
-    // Mettre à jour la requête affichée
+    // Mettre à jour la requête affichée de façon sécurisée
     var queryElement = document.querySelector('.search-query');
     if (queryElement) {
-        queryElement.innerHTML = 'Recherche pour : <strong>"' + query + '"</strong>';
+        queryElement.innerHTML = ''; // Vider d'abord
+        
+        var text1 = document.createTextNode('Recherche pour : ');
+        var strong = document.createElement('strong');
+        strong.textContent = '"' + (query || '') + '"'; // textContent échappe automatiquement
+        
+        queryElement.appendChild(text1);
+        queryElement.appendChild(strong);
     }
     
     // Mettre à jour les sections de résultats
@@ -136,7 +143,29 @@ function updateSection(type, items) {
         var item = items[i];
         var card = document.createElement('div');
         card.className = 'result-card';
-        card.innerHTML = '<h3><a href="' + item.url + '">' + item.title + '</a></h3><p>' + item.description + '</p>';
+        
+        // Construction DOM sécurisée pour éviter XSS
+        var h3 = document.createElement('h3');
+        var link = document.createElement('a');
+        
+        // Validation et échappement de l'URL
+        var safeUrl = item.url || '#';
+        // Bloquer les URLs javascript: et data: potentiellement dangereuses
+        if (safeUrl.toLowerCase().indexOf('javascript:') === 0 || 
+            safeUrl.toLowerCase().indexOf('data:') === 0 || 
+            safeUrl.toLowerCase().indexOf('vbscript:') === 0) {
+            safeUrl = '#';
+        }
+        
+        link.href = safeUrl;
+        link.textContent = item.title || 'Sans titre'; // textContent échappe automatiquement
+        h3.appendChild(link);
+        
+        var p = document.createElement('p');
+        p.textContent = item.description || ''; // textContent échappe automatiquement
+        
+        card.appendChild(h3);
+        card.appendChild(p);
         grid.appendChild(card);
     }
 }
@@ -144,18 +173,42 @@ function updateSection(type, items) {
 function showNoResults(query) {
     var container = document.querySelector('.results-container');
     if (container) {
-        container.innerHTML = 
-            '<div class="no-results">' +
-            '<p>Aucun résultat trouvé pour "' + query + '".</p>' +
-            '<div class="suggestions">' +
-            '<h3>Suggestions :</h3>' +
-            '<ul>' +
-            '<li>Vérifiez l\'orthographe des mots-clés</li>' +
-            '<li>Essayez des mots-clés plus généraux</li>' +
-            '<li>Essayez un nombre différent de mots-clés</li>' +
-            '</ul>' +
-            '</div>' +
-            '</div>';
+        // Construction DOM sécurisée pour éviter XSS
+        container.innerHTML = ''; // Vider d'abord
+        
+        var noResultsDiv = document.createElement('div');
+        noResultsDiv.className = 'no-results';
+        
+        var p = document.createElement('p');
+        p.textContent = 'Aucun résultat trouvé pour "' + (query || '') + '".';
+        
+        var suggestionsDiv = document.createElement('div');
+        suggestionsDiv.className = 'suggestions';
+        
+        var h3 = document.createElement('h3');
+        h3.textContent = 'Suggestions :';
+        
+        var ul = document.createElement('ul');
+        
+        var suggestions = [
+            'Vérifiez l\'orthographe des mots-clés',
+            'Essayez des mots-clés plus généraux',
+            'Essayez un nombre différent de mots-clés'
+        ];
+        
+        for (var i = 0; i < suggestions.length; i++) {
+            var li = document.createElement('li');
+            li.textContent = suggestions[i];
+            ul.appendChild(li);
+        }
+        
+        suggestionsDiv.appendChild(h3);
+        suggestionsDiv.appendChild(ul);
+        
+        noResultsDiv.appendChild(p);
+        noResultsDiv.appendChild(suggestionsDiv);
+        
+        container.appendChild(noResultsDiv);
     }
     
     // Logger la recherche non trouvée

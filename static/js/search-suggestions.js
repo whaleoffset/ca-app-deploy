@@ -91,10 +91,18 @@ class SearchSuggestions {
         suggestions.forEach(suggestion => {
             const suggestionElement = document.createElement('div');
             suggestionElement.className = 'suggestion-item';
-            suggestionElement.innerHTML = `
-                <span class="suggestion-text">${suggestion.text}</span>
-                <span class="suggestion-type">${suggestion.type === 'profil' ? 'Profil' : 'Sujet'}</span>
-            `;
+            
+            // Construction DOM sécurisée pour éviter XSS
+            const textSpan = document.createElement('span');
+            textSpan.className = 'suggestion-text';
+            textSpan.textContent = suggestion.text || ''; // textContent échappe automatiquement
+            
+            const typeSpan = document.createElement('span');
+            typeSpan.className = 'suggestion-type';
+            typeSpan.textContent = suggestion.type === 'profil' ? 'Profil' : 'Sujet';
+            
+            suggestionElement.appendChild(textSpan);
+            suggestionElement.appendChild(typeSpan);
             
             // Rendre toute la ligne cliquable
             suggestionElement.style.cursor = 'pointer';
