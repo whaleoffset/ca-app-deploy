@@ -83,7 +83,6 @@ class LocalSearch {
 
         if (results.length === 0) {
             this.resultsContainer.innerHTML = '<p>Aucun résultat trouvé</p>';
-            this.logNotFound(query);
             return;
         }
 
@@ -104,18 +103,7 @@ class LocalSearch {
         }
     }
 
-    logNotFound(query) {
-        // Envoyer à la Netlify Function pour logging
-        fetch('/.netlify/functions/logNotFound', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ query })
-        }).catch(error => {
-            console.error('Erreur lors du logging:', error);
-        });
-    }
+
 }
 
 // Initialiser la recherche quand le DOM est prêt

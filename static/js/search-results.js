@@ -171,7 +171,7 @@ function logNotFoundSearch(query) {
     };
     
     // Envoyer vers la fonction Netlify
-    fetch('/.netlify/functions/logNotFound', {
+    fetch('https://regal-nasturtium-30b87d.netlify.app/.netlify/functions/logNotFound', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
