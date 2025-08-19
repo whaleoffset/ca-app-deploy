@@ -21,6 +21,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/laurent-fabius.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/amelie-oudea-castera.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/yael-braun-pivet.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -116,7 +126,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/edouard-philippe.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/michele-sabban.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/camille-stineau.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -137,6 +157,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/agnes-pannier-runacher.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/charlotte-caubel.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -171,7 +196,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/yannick-haury.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/patrick-mignola.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/agnes-buzyn.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

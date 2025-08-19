@@ -1,6 +1,18 @@
 {
   "profils": [
     {
+      "title": "Laurent Fabius",
+      "url": "/profil/laurent-fabius.html",
+      "description": "Profil de Laurent Fabius",
+      "type": "profil"
+    },
+    {
+      "title": "Prenom Nom",
+      "url": "/profil/amelie-oudea-castera.html",
+      "description": "Profil de Prenom Nom",
+      "type": "profil"
+    },
+    {
       "title": "Yaël Braun-Pivet",
       "url": "/profil/yael-braun-pivet.html",
       "description": "Profil de Yaël Braun-Pivet",
@@ -115,9 +127,21 @@
       "type": "profil"
     },
     {
+      "title": "Edouard Philippe",
+      "url": "/profil/edouard-philippe.html",
+      "description": "Profil de Edouard Philippe",
+      "type": "profil"
+    },
+    {
       "title": "Michèle Sabban",
       "url": "/profil/michele-sabban.html",
       "description": "Profil de Michèle Sabban",
+      "type": "profil"
+    },
+    {
+      "title": "Camille Stineau",
+      "url": "/profil/camille-stineau.html",
+      "description": "Profil de Camille Stineau",
       "type": "profil"
     },
     {
@@ -142,6 +166,12 @@
       "title": "Agnès Pannier-Runacher",
       "url": "/profil/agnes-pannier-runacher.html",
       "description": "Profil de Agnès Pannier-Runacher",
+      "type": "profil"
+    },
+    {
+      "title": "Charlotte Caubel",
+      "url": "/profil/charlotte-caubel.html",
+      "description": "Profil de Charlotte Caubel",
       "type": "profil"
     },
     {
@@ -181,9 +211,21 @@
       "type": "profil"
     },
     {
+      "title": "Yannick Haury",
+      "url": "/profil/yannick-haury.html",
+      "description": "Profil de Yannick Haury",
+      "type": "profil"
+    },
+    {
       "title": "Patrick Mignola",
       "url": "/profil/patrick-mignola.html",
       "description": "Profil de Patrick Mignola",
+      "type": "profil"
+    },
+    {
+      "title": "Agnès Buzyn",
+      "url": "/profil/agnes-buzyn.html",
+      "description": "Profil de Agnès Buzyn",
       "type": "profil"
     },
     {
@@ -261,5 +303,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-19T16:23:00.473860"
+  "generated_at": "2025-08-19T17:25:52.075627"
 }
