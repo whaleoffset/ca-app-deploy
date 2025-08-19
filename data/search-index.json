@@ -13,6 +13,12 @@
       "type": "profil"
     },
     {
+      "title": "Sébastien Delogu",
+      "url": "/profil/sebastien-delogu.html",
+      "description": "Profil de Sébastien Delogu",
+      "type": "profil"
+    },
+    {
       "title": "Claire Landais",
       "url": "/profil/claire-landais.html",
       "description": "Profil de Claire Landais",
@@ -255,5 +261,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-16T18:20:13.990266"
+  "generated_at": "2025-08-19T16:23:00.473860"
 }
