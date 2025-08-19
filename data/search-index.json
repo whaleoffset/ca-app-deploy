@@ -7,9 +7,9 @@
       "type": "profil"
     },
     {
-      "title": "Prenom Nom",
+      "title": "Amélie Oudéa-Castéra",
       "url": "/profil/amelie-oudea-castera.html",
-      "description": "Profil de Prenom Nom",
+      "description": "Profil de Amélie Oudéa-Castéra",
       "type": "profil"
     },
     {
@@ -97,6 +97,12 @@
       "type": "profil"
     },
     {
+      "title": "Adrien Quatennens",
+      "url": "/profil/adrien-quatennens.html",
+      "description": "Profil de Adrien Quatennens",
+      "type": "profil"
+    },
+    {
       "title": "Éric Lombard",
       "url": "/profil/eric-lombard.html",
       "description": "Profil de Éric Lombard",
@@ -178,6 +184,12 @@
       "title": "Jean-Noël Barrot",
       "url": "/profil/jean-noel-barrot.html",
       "description": "Profil de Jean-Noël Barrot",
+      "type": "profil"
+    },
+    {
+      "title": "Jack Lang",
+      "url": "/profil/jack-lang.html",
+      "description": "Profil de Jack Lang",
       "type": "profil"
     },
     {
@@ -303,5 +315,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-19T17:25:52.075627"
+  "generated_at": "2025-08-19T17:53:12.619294"
 }

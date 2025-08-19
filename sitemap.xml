@@ -101,6 +101,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/adrien-quatennens.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/eric-lombard.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -167,6 +172,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/jean-noel-barrot.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/jack-lang.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
