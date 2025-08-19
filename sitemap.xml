@@ -96,6 +96,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/jean-michel-blanquer.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/alexis-corbiere.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -121,6 +126,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/yannick-jadot.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/jerome-peyrat.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -142,6 +152,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/camille-stineau.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/maxette-pirbakas.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

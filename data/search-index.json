@@ -91,6 +91,12 @@
       "type": "profil"
     },
     {
+      "title": "Jean-Michel Blanquer",
+      "url": "/profil/jean-michel-blanquer.html",
+      "description": "Profil de Jean-Michel Blanquer",
+      "type": "profil"
+    },
+    {
       "title": "Alexis Corbière",
       "url": "/profil/alexis-corbiere.html",
       "description": "Profil de Alexis Corbière",
@@ -121,6 +127,12 @@
       "type": "profil"
     },
     {
+      "title": "Yannick Jadot",
+      "url": "/profil/yannick-jadot.html",
+      "description": "Profil de Yannick Jadot",
+      "type": "profil"
+    },
+    {
       "title": "Jérôme Peyrat",
       "url": "/profil/jerome-peyrat.html",
       "description": "Profil de Jérôme Peyrat",
@@ -148,6 +160,12 @@
       "title": "Camille Stineau",
       "url": "/profil/camille-stineau.html",
       "description": "Profil de Camille Stineau",
+      "type": "profil"
+    },
+    {
+      "title": "Maxette Pirbakas",
+      "url": "/profil/maxette-pirbakas.html",
+      "description": "Profil de Maxette Pirbakas",
       "type": "profil"
     },
     {
@@ -315,5 +333,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-19T17:53:12.619294"
+  "generated_at": "2025-08-19T19:58:03.542503"
 }
