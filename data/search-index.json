@@ -31,6 +31,12 @@
       "type": "profil"
     },
     {
+      "title": "Stéphane Trompille",
+      "url": "/profil/stephane-trompille.html",
+      "description": "Profil de Stéphane Trompille",
+      "type": "profil"
+    },
+    {
       "title": "Claire Landais",
       "url": "/profil/claire-landais.html",
       "description": "Profil de Claire Landais",
@@ -43,15 +49,33 @@
       "type": "profil"
     },
     {
+      "title": "Sandrine Josso",
+      "url": "/profil/sandrine-josso.html",
+      "description": "Profil de Sandrine Josso",
+      "type": "profil"
+    },
+    {
       "title": "Karl Olive",
       "url": "/profil/karl-olive.html",
       "description": "Profil de Karl Olive",
       "type": "profil"
     },
     {
+      "title": "Eric Woerth",
+      "url": "/profil/eric-woerth.html",
+      "description": "Profil de Eric Woerth",
+      "type": "profil"
+    },
+    {
       "title": "Sébastien Lecornu",
       "url": "/profil/sebastien-lecornu.html",
       "description": "Profil de Sébastien Lecornu",
+      "type": "profil"
+    },
+    {
+      "title": "Damien Abad",
+      "url": "/profil/damien-abad.html",
+      "description": "Profil de Damien Abad",
       "type": "profil"
     },
     {
@@ -157,6 +181,30 @@
       "type": "profil"
     },
     {
+      "title": "Thierry Solère",
+      "url": "/profil/thierry-solere.html",
+      "description": "Profil de Thierry Solère",
+      "type": "profil"
+    },
+    {
+      "title": "Julien Aubert",
+      "url": "/profil/julien-aubert.html",
+      "description": "Profil de Julien Aubert",
+      "type": "profil"
+    },
+    {
+      "title": "Mustapha Laabid",
+      "url": "/profil/mustapha-laabid.html",
+      "description": "Profil de Mustapha Laabid",
+      "type": "profil"
+    },
+    {
+      "title": "Pierre Cabaré",
+      "url": "/profil/pierre-cabare.html",
+      "description": "Profil de Pierre Cabaré",
+      "type": "profil"
+    },
+    {
       "title": "Annie Genevard",
       "url": "/profil/annie-genevard.html",
       "description": "Profil de Annie Genevard",
@@ -193,9 +241,21 @@
       "type": "profil"
     },
     {
+      "title": "M'jid El Guerrab",
+      "url": "/profil/m-jid-el-guerrab.html",
+      "description": "Profil de M'jid El Guerrab",
+      "type": "profil"
+    },
+    {
       "title": "Camille Stineau",
       "url": "/profil/camille-stineau.html",
       "description": "Profil de Camille Stineau",
+      "type": "profil"
+    },
+    {
+      "title": "Stéphanie Kerbarh",
+      "url": "/profil/stephanie-kerbarh.html",
+      "description": "Profil de Stéphanie Kerbarh",
       "type": "profil"
     },
     {
@@ -241,6 +301,12 @@
       "type": "profil"
     },
     {
+      "title": "Richard Ferrand",
+      "url": "/profil/richard-ferrand.html",
+      "description": "Profil de Richard Ferrand",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Pierre Chevènement",
       "url": "/profil/jean-pierrre-chevenement.html",
       "description": "Profil de Jean-Pierre Chevènement",
@@ -253,6 +319,12 @@
       "type": "profil"
     },
     {
+      "title": "Anne-France Brunet",
+      "url": "/profil/anne-france-brunet.html",
+      "description": "Profil de Anne-France Brunet",
+      "type": "profil"
+    },
+    {
       "title": "Jack Lang",
       "url": "/profil/jack-lang.html",
       "description": "Profil de Jack Lang",
@@ -262,6 +334,12 @@
       "title": "Brigitte Kuster",
       "url": "/profil/brigitte-kuster.html",
       "description": "Profil de Brigitte Kuster",
+      "type": "profil"
+    },
+    {
+      "title": "Claire O'Petit",
+      "url": "/profil/claire-o-petit.html",
+      "description": "Profil de Claire O'Petit",
       "type": "profil"
     },
     {
@@ -283,9 +361,27 @@
       "type": "profil"
     },
     {
+      "title": "Xavier Lacombe",
+      "url": "/profil/xavier-lacombe.html",
+      "description": "Profil de Xavier Lacombe",
+      "type": "profil"
+    },
+    {
+      "title": "Benoît Simian",
+      "url": "/profil/benoit-simian.html",
+      "description": "Profil de Benoît Simian",
+      "type": "profil"
+    },
+    {
       "title": "Anne-Christine Lang",
       "url": "/profil/anne-christine-lang.html",
       "description": "Profil de Anne-Christine Lang",
+      "type": "profil"
+    },
+    {
+      "title": "Olivier Véran",
+      "url": "/profil/olivier-veran.html",
+      "description": "Profil de Olivier Véran",
       "type": "profil"
     },
     {
@@ -313,9 +409,21 @@
       "type": "profil"
     },
     {
+      "title": "Eric Ciotti",
+      "url": "/profil/eric-ciotti.html",
+      "description": "Profil de Eric Ciotti",
+      "type": "profil"
+    },
+    {
       "title": "Patrick Mignola",
       "url": "/profil/patrick-mignola.html",
       "description": "Profil de Patrick Mignola",
+      "type": "profil"
+    },
+    {
+      "title": "Agnès Firmin Le Bodo",
+      "url": "/profil/agnes-firmin-le-bodo.html",
+      "description": "Profil de Agnès Firmin Le Bodo",
       "type": "profil"
     },
     {
@@ -343,6 +451,12 @@
       "type": "profil"
     },
     {
+      "title": "Patricia Mirallès",
+      "url": "/profil/patricia-miralles.html",
+      "description": "Profil de Patricia Mirallès",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Luc Mélenchon",
       "url": "/profil/jean-luc-melenchon.html",
       "description": "Profil de Jean-Luc Mélenchon",
@@ -355,9 +469,21 @@
       "type": "profil"
     },
     {
+      "title": "Jean-Paul Delevoye",
+      "url": "/profil/jean-paul-delevoye.html",
+      "description": "Profil de Jean-Paul Delevoye",
+      "type": "profil"
+    },
+    {
       "title": "Laurent Marcangeli",
       "url": "/profil/laurent-marcangeli.html",
       "description": "Profil de Laurent Marcangeli",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Christophe Lagarde",
+      "url": "/profil/jean-christophe-lagarde.html",
+      "description": "Profil de Jean-Christophe Lagarde",
       "type": "profil"
     },
     {
@@ -370,6 +496,18 @@
       "title": "Leïla Chaibi",
       "url": "/profil/leila-chaibi.html",
       "description": "Profil de Leïla Chaibi",
+      "type": "profil"
+    },
+    {
+      "title": "Muriel Pénicaud",
+      "url": "/profil/muriel-penicaud.html",
+      "description": "Profil de Muriel Pénicaud",
+      "type": "profil"
+    },
+    {
+      "title": "Philippe Tabarot",
+      "url": "/profil/philippe-tabarot.html",
+      "description": "Profil de Philippe Tabarot",
       "type": "profil"
     },
     {
@@ -405,6 +543,18 @@
       "type": "sujet"
     },
     {
+      "title": "Affaire Benalla",
+      "url": "/sujet/affaire-benalla.html",
+      "description": "Sujet : Affaire Benalla",
+      "type": "sujet"
+    },
+    {
+      "title": "Conseil constitutionnel",
+      "url": "/sujet/conseil-constitutionnel.html",
+      "description": "Sujet : Conseil constitutionnel",
+      "type": "sujet"
+    },
+    {
       "title": "Attentats du 7 octobre",
       "url": "/sujet/attentats-7-octobre.html",
       "description": "Sujet : Attentats du 7 octobre",
@@ -417,5 +567,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-20T13:26:03.059713"
+  "generated_at": "2025-08-20T14:57:50.908626"
 }
