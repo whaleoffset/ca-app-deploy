@@ -43,6 +43,12 @@
       "type": "profil"
     },
     {
+      "title": "Marc-Philippe Daubresse",
+      "url": "/profil/marc-philippe-daubresse.html",
+      "description": "Profil de Marc-Philippe Daubresse",
+      "type": "profil"
+    },
+    {
       "title": "Philippe Baptiste",
       "url": "/profil/philippe-baptiste.html",
       "description": "Profil de Philippe Baptiste",
@@ -64,6 +70,12 @@
       "title": "Eric Woerth",
       "url": "/profil/eric-woerth.html",
       "description": "Profil de Eric Woerth",
+      "type": "profil"
+    },
+    {
+      "title": "Françoise Nyssen",
+      "url": "/profil/francoise-nyssen.html",
+      "description": "Profil de Françoise Nyssen",
       "type": "profil"
     },
     {
@@ -97,6 +109,12 @@
       "type": "profil"
     },
     {
+      "title": "Nicolas Hulot",
+      "url": "/profil/nicolas-hulot.html",
+      "description": "Profil de Nicolas Hulot",
+      "type": "profil"
+    },
+    {
       "title": "Michèle Blumenthal",
       "url": "/profil/michele-blumenthal.html",
       "description": "Profil de Michèle Blumenthal",
@@ -106,6 +124,12 @@
       "title": "Alexis Kohler",
       "url": "/profil/alexis-kohler.html",
       "description": "Profil de Alexis Kohler",
+      "type": "profil"
+    },
+    {
+      "title": "Marlène Schiappa",
+      "url": "/profil/marlene-schiappa.html",
+      "description": "Profil de Marlène Schiappa",
       "type": "profil"
     },
     {
@@ -169,6 +193,12 @@
       "type": "profil"
     },
     {
+      "title": "Roxana Maracineanu",
+      "url": "/profil/roxana-maracineanu.html",
+      "description": "Profil de Roxana Maracineanu",
+      "type": "profil"
+    },
+    {
       "title": "Gabriel Attal",
       "url": "/profil/gabriel-attal.html",
       "description": "Profil de Gabriel Attal",
@@ -205,9 +235,27 @@
       "type": "profil"
     },
     {
+      "title": "Laura Flessel",
+      "url": "/profil/laura-flessel.html",
+      "description": "Profil de Laura Flessel",
+      "type": "profil"
+    },
+    {
+      "title": "Yves Détraigne",
+      "url": "/profil/yves-detraigne.html",
+      "description": "Profil de Yves Détraigne",
+      "type": "profil"
+    },
+    {
       "title": "Annie Genevard",
       "url": "/profil/annie-genevard.html",
       "description": "Profil de Annie Genevard",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Jacques Bridey",
+      "url": "/profil/jean-jacques-bridey.html",
+      "description": "Profil de Jean-Jacques Bridey",
       "type": "profil"
     },
     {
@@ -301,6 +349,12 @@
       "type": "profil"
     },
     {
+      "title": "Caroline Cayeux",
+      "url": "/profil/caroline-cayeux.html",
+      "description": "Profil de Caroline Cayeux",
+      "type": "profil"
+    },
+    {
       "title": "Richard Ferrand",
       "url": "/profil/richard-ferrand.html",
       "description": "Profil de Richard Ferrand",
@@ -382,6 +436,12 @@
       "title": "Olivier Véran",
       "url": "/profil/olivier-veran.html",
       "description": "Profil de Olivier Véran",
+      "type": "profil"
+    },
+    {
+      "title": "Chrysoula Zacharopoulou",
+      "url": "/profil/chrysoula-zacharopoulou.html",
+      "description": "Profil de Chrysoula Zacharopoulou",
       "type": "profil"
     },
     {
@@ -567,5 +627,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-20T14:57:50.908626"
+  "generated_at": "2025-08-20T16:50:03.318015"
 }
