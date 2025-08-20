@@ -43,6 +43,12 @@
       "type": "profil"
     },
     {
+      "title": "Karl Olive",
+      "url": "/profil/karl-olive.html",
+      "description": "Profil de Karl Olive",
+      "type": "profil"
+    },
+    {
       "title": "Sébastien Lecornu",
       "url": "/profil/sebastien-lecornu.html",
       "description": "Profil de Sébastien Lecornu",
@@ -58,6 +64,18 @@
       "title": "Jordan Bardella",
       "url": "/profil/jordan-bardella.html",
       "description": "Profil de Jordan Bardella",
+      "type": "profil"
+    },
+    {
+      "title": "Sira Sylla",
+      "url": "/profil/sira-sylla.html",
+      "description": "Profil de Sira Sylla",
+      "type": "profil"
+    },
+    {
+      "title": "Michèle Blumenthal",
+      "url": "/profil/michele-blumenthal.html",
+      "description": "Profil de Michèle Blumenthal",
       "type": "profil"
     },
     {
@@ -91,6 +109,12 @@
       "type": "profil"
     },
     {
+      "title": "Nathalie Elimas",
+      "url": "/profil/nathalie-elimas.html",
+      "description": "Profil de Nathalie Elimas",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Michel Blanquer",
       "url": "/profil/jean-michel-blanquer.html",
       "description": "Profil de Jean-Michel Blanquer",
@@ -115,9 +139,21 @@
       "type": "profil"
     },
     {
+      "title": "Jean-Jacques Gianesinni",
+      "url": "/profil/jean-jacques-gianesinni.html",
+      "description": "Profil de Jean-Jacques Gianesinni",
+      "type": "profil"
+    },
+    {
       "title": "Gabriel Attal",
       "url": "/profil/gabriel-attal.html",
       "description": "Profil de Gabriel Attal",
+      "type": "profil"
+    },
+    {
+      "title": "Laetitia Avia",
+      "url": "/profil/laetitia-avia.html",
+      "description": "Profil de Laetitia Avia",
       "type": "profil"
     },
     {
@@ -199,6 +235,18 @@
       "type": "profil"
     },
     {
+      "title": "Delphine Batho",
+      "url": "/profil/delphine-batho.html",
+      "description": "Profil de Delphine Batho",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Pierre Chevènement",
+      "url": "/profil/jean-pierrre-chevenement.html",
+      "description": "Profil de Jean-Pierre Chevènement",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Noël Barrot",
       "url": "/profil/jean-noel-barrot.html",
       "description": "Profil de Jean-Noël Barrot",
@@ -208,6 +256,12 @@
       "title": "Jack Lang",
       "url": "/profil/jack-lang.html",
       "description": "Profil de Jack Lang",
+      "type": "profil"
+    },
+    {
+      "title": "Brigitte Kuster",
+      "url": "/profil/brigitte-kuster.html",
+      "description": "Profil de Brigitte Kuster",
       "type": "profil"
     },
     {
@@ -229,9 +283,21 @@
       "type": "profil"
     },
     {
+      "title": "Anne-Christine Lang",
+      "url": "/profil/anne-christine-lang.html",
+      "description": "Profil de Anne-Christine Lang",
+      "type": "profil"
+    },
+    {
       "title": "Eric Piolle",
       "url": "/profil/eric-piolle.html",
       "description": "Profil de Eric Piolle",
+      "type": "profil"
+    },
+    {
+      "title": "Alain Griset",
+      "url": "/profil/alain-griset.html",
+      "description": "Profil de Alain Griset",
       "type": "profil"
     },
     {
@@ -256,6 +322,12 @@
       "title": "Agnès Buzyn",
       "url": "/profil/agnes-buzyn.html",
       "description": "Profil de Agnès Buzyn",
+      "type": "profil"
+    },
+    {
+      "title": "Olivier Dussopt",
+      "url": "/profil/olivier-dussopt.html",
+      "description": "Profil de Olivier Dussopt",
       "type": "profil"
     },
     {
@@ -307,6 +379,18 @@
       "type": "profil"
     },
     {
+      "title": "Fadela Amara",
+      "url": "/profil/fadela-amara.html",
+      "description": "Profil de Fadela Amara",
+      "type": "profil"
+    },
+    {
+      "title": "François Pupponi",
+      "url": "/profil/francois-pupponi.html",
+      "description": "Profil de François Pupponi",
+      "type": "profil"
+    },
+    {
       "title": "Francois Bayrou",
       "url": "/profil/francois-bayrou.html",
       "description": "Profil de Francois Bayrou",
@@ -333,5 +417,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-20T09:28:22.720434"
+  "generated_at": "2025-08-20T13:26:03.059713"
 }
