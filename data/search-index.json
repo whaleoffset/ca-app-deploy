@@ -223,6 +223,12 @@
       "type": "profil"
     },
     {
+      "title": "Jacques Cheminade",
+      "url": "/profil/jacques-cheminade.html",
+      "description": "Profil de Jacques Cheminade",
+      "type": "profil"
+    },
+    {
       "title": "Mustapha Laabid",
       "url": "/profil/mustapha-laabid.html",
       "description": "Profil de Mustapha Laabid",
@@ -370,6 +376,12 @@
       "title": "Jean-Noël Barrot",
       "url": "/profil/jean-noel-barrot.html",
       "description": "Profil de Jean-Noël Barrot",
+      "type": "profil"
+    },
+    {
+      "title": "Jean-Vincent Placé",
+      "url": "/profil/jean-vincent-place.html",
+      "description": "Profil de Jean-Vincent Placé",
       "type": "profil"
     },
     {
@@ -627,5 +639,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-20T17:56:01.752448"
+  "generated_at": "2025-08-21T12:58:23.233232"
 }
