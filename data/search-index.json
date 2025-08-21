@@ -25,6 +25,12 @@
       "type": "profil"
     },
     {
+      "title": "Jean-Luc Bennahmias",
+      "url": "/profil/jean-luc-bennahmias.html",
+      "description": "Profil de Jean-Luc Bennahmias",
+      "type": "profil"
+    },
+    {
       "title": "Sébastien Delogu",
       "url": "/profil/sebastien-delogu.html",
       "description": "Profil de Sébastien Delogu",
@@ -97,6 +103,12 @@
       "type": "profil"
     },
     {
+      "title": "Valérie Pécresse",
+      "url": "/profil/valerie-pecresse.html",
+      "description": "Profil de Valérie Pécresse",
+      "type": "profil"
+    },
+    {
       "title": "Jordan Bardella",
       "url": "/profil/jordan-bardella.html",
       "description": "Profil de Jordan Bardella",
@@ -142,6 +154,12 @@
       "title": "Gérald Darmanin",
       "url": "/profil/gerald-darmanin.html",
       "description": "Profil de Gérald Darmanin",
+      "type": "profil"
+    },
+    {
+      "title": "Éric Zemmour",
+      "url": "/profil/eric-zemmour.html",
+      "description": "Profil de Éric Zemmour",
       "type": "profil"
     },
     {
@@ -547,15 +565,33 @@
       "type": "profil"
     },
     {
+      "title": "Clara Chappaz",
+      "url": "/profil/clara-chappaz.html",
+      "description": "Profil de Clara Chappaz",
+      "type": "profil"
+    },
+    {
       "title": "Laurent Marcangeli",
       "url": "/profil/laurent-marcangeli.html",
       "description": "Profil de Laurent Marcangeli",
       "type": "profil"
     },
     {
+      "title": "Hapsatou Sy",
+      "url": "/profil/hapsatou-sy.html",
+      "description": "Profil de Hapsatou Sy",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Christophe Lagarde",
       "url": "/profil/jean-christophe-lagarde.html",
       "description": "Profil de Jean-Christophe Lagarde",
+      "type": "profil"
+    },
+    {
+      "title": "Joël Hocquelet",
+      "url": "/profil/joel-hocquelet.html",
+      "description": "Profil de Joël Hocquelet",
       "type": "profil"
     },
     {
@@ -601,6 +637,12 @@
       "type": "profil"
     },
     {
+      "title": "Ségolène Royal",
+      "url": "/profil/segolene-royal.html",
+      "description": "Profil de Ségolène Royal",
+      "type": "profil"
+    },
+    {
       "title": "Francois Bayrou",
       "url": "/profil/francois-bayrou.html",
       "description": "Profil de Francois Bayrou",
@@ -627,6 +669,12 @@
       "type": "sujet"
     },
     {
+      "title": "Mineurs isolés",
+      "url": "/sujet/mineurs-isoles.html",
+      "description": "Sujet : Mineurs isolés",
+      "type": "sujet"
+    },
+    {
       "title": "Attentats du 7 octobre",
       "url": "/sujet/attentats-7-octobre.html",
       "description": "Sujet : Attentats du 7 octobre",
@@ -637,7 +685,19 @@
       "url": "/sujet/nicolas-qui-paie.html",
       "description": "Sujet : Nicolas qui paie",
       "type": "sujet"
+    },
+    {
+      "title": "Affaire Jean Pormanove",
+      "url": "/sujet/affaire-jean-pormanove.html",
+      "description": "Sujet : Affaire Jean Pormanove",
+      "type": "sujet"
+    },
+    {
+      "title": "Affaire des assistants parlementaires du MoDem",
+      "url": "/sujet/affaire-assistants-parlementaires-modem.html",
+      "description": "Sujet : Affaire des assistants parlementaires du MoDem",
+      "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-21T12:58:23.233232"
+  "generated_at": "2025-08-21T17:45:11.891196"
 }
