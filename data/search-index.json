@@ -157,6 +157,12 @@
       "type": "profil"
     },
     {
+      "title": "Louis Boyard",
+      "url": "/profil/louis-boyard.html",
+      "description": "Profil de Louis Boyard",
+      "type": "profil"
+    },
+    {
       "title": "Éric Zemmour",
       "url": "/profil/eric-zemmour.html",
       "description": "Profil de Éric Zemmour",
@@ -699,5 +705,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-21T17:45:11.891196"
+  "generated_at": "2025-08-21T18:10:57.178722"
 }
