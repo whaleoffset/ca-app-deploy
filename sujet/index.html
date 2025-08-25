@@ -59,45 +59,65 @@
     <h1>Sujets</h1>
     <p>Liste des sujets d'actualité politique</p>
     
+    <div class="search-section">
+        <form action="/recherche" method="get" class="search-form" role="search">
+            <div class="search-input-container">
+                <input 
+                    type="text" 
+                    name="q" 
+                    id="search-input"
+                    placeholder="Rechercher une personnalité ou un sujet..." 
+                    aria-label="Recherche"
+                    autocomplete="off"
+                    required
+                >
+                <div id="suggestions" class="suggestions-dropdown"></div>
+            </div>
+            <button type="submit">
+                Rechercher
+            </button>
+        </form>
+    </div>
+    
     <div class="items-grid">
         
         <div class="item-card">
-            <h3><a href="/sujet/jeux-olympiques-paris.html">Jeux olympiques de Paris</a></h3>
+            <h3><a href="/sujet/jeux-olympiques-paris">Jeux olympiques de Paris</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/affaire-benalla.html">Affaire Benalla</a></h3>
+            <h3><a href="/sujet/affaire-benalla">Affaire Benalla</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/conseil-constitutionnel.html">Conseil constitutionnel</a></h3>
+            <h3><a href="/sujet/conseil-constitutionnel">Conseil constitutionnel</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/mineurs-isoles.html">Mineurs isolés</a></h3>
+            <h3><a href="/sujet/mineurs-isoles">Mineurs isolés</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/attentats-7-octobre.html">Attentats du 7 octobre</a></h3>
+            <h3><a href="/sujet/attentats-7-octobre">Attentats du 7 octobre</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/nicolas-qui-paie.html">Nicolas qui paie</a></h3>
+            <h3><a href="/sujet/nicolas-qui-paie">Nicolas qui paie</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/affaire-jean-pormanove.html">Affaire Jean Pormanove</a></h3>
+            <h3><a href="/sujet/affaire-jean-pormanove">Affaire Jean Pormanove</a></h3>
             
         </div>
         
         <div class="item-card">
-            <h3><a href="/sujet/affaire-assistants-parlementaires-modem.html">Affaire des assistants parlementaires du MoDem</a></h3>
+            <h3><a href="/sujet/affaire-assistants-parlementaires-modem">Affaire des assistants parlementaires du MoDem</a></h3>
             
         </div>
         
