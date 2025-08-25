@@ -848,11 +848,11 @@ altcha-widget::part(button):disabled {
 .most-viewed-button {
     display: inline-block;
     padding: 0.75rem 1.25rem;
-    background-color: #6c757d;
+    background-color: #3498db;
     color: white;
     text-decoration: none;
     border-radius: 6px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
     transition: all 0.3s ease;
@@ -867,7 +867,7 @@ altcha-widget::part(button):disabled {
 }
 
 .most-viewed-button:hover {
-    background-color: #5a6268;
+    background-color: #2980b9;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     color: white;
@@ -898,7 +898,7 @@ altcha-widget::part(button):disabled {
     
     .most-viewed-button {
         padding: 0.6rem 1rem;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         min-width: 140px;
         max-width: 200px;
     }
