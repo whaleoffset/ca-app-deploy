@@ -1861,6 +1861,12 @@
       "type": "profil"
     },
     {
+      "title": "Vanina Paoli-Gagin",
+      "url": "/profil/vanina-paoli-gagin",
+      "description": "Profil de Vanina Paoli-Gagin",
+      "type": "profil"
+    },
+    {
       "title": "Claire O'Petit",
       "url": "/profil/claire-o-petit",
       "description": "Profil de Claire O'Petit",
@@ -2787,5 +2793,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-26T20:00:02.209340"
+  "generated_at": "2025-08-26T20:31:30.233955"
 }
