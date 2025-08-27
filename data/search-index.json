@@ -1,6 +1,12 @@
 {
   "profils": [
     {
+      "title": "François Seners",
+      "url": "/profil/francois-seners",
+      "description": "Profil de François Seners",
+      "type": "profil"
+    },
+    {
       "title": "Patrick Hetzel",
       "url": "/profil/patrick-hetzel",
       "description": "Profil de Patrick Hetzel",
@@ -64,6 +70,12 @@
       "title": "Marie-Agnès Poussier-Winsback",
       "url": "/profil/marie-agnes-poussier-winsback",
       "description": "Profil de Marie-Agnès Poussier-Winsback",
+      "type": "profil"
+    },
+    {
+      "title": "Matthieu Pigasse",
+      "url": "/profil/matthieu-pigasse",
+      "description": "Profil de Matthieu Pigasse",
       "type": "profil"
     },
     {
@@ -295,6 +307,12 @@
       "type": "profil"
     },
     {
+      "title": "Marc Le Fur",
+      "url": "/profil/marc-le-fur",
+      "description": "Profil de Marc Le Fur",
+      "type": "profil"
+    },
+    {
       "title": "Christiane Taubira",
       "url": "/profil/christiane-taubira",
       "description": "Profil de Christiane Taubira",
@@ -475,6 +493,12 @@
       "type": "profil"
     },
     {
+      "title": "Jacqueline Gourault",
+      "url": "/profil/jacqueline-gourault",
+      "description": "Profil de Jacqueline Gourault",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Marie Le Guen",
       "url": "/profil/jean-marie-le-guen",
       "description": "Profil de Jean-Marie Le Guen",
@@ -643,6 +667,12 @@
       "type": "profil"
     },
     {
+      "title": "Annick Cousin",
+      "url": "/profil/annick-cousin",
+      "description": "Profil de Annick Cousin",
+      "type": "profil"
+    },
+    {
       "title": "Jérôme Buisson",
       "url": "/profil/jerome-buisson",
       "description": "Profil de Jérôme Buisson",
@@ -757,6 +787,12 @@
       "type": "profil"
     },
     {
+      "title": "Mathilde Paris",
+      "url": "/profil/mathilde-paris",
+      "description": "Profil de Mathilde Paris",
+      "type": "profil"
+    },
+    {
       "title": "Vincent Ledoux",
       "url": "/profil/vincent-ledoux",
       "description": "Profil de Vincent Ledoux",
@@ -817,6 +853,12 @@
       "type": "profil"
     },
     {
+      "title": "Nathalie Serre",
+      "url": "/profil/nathalie-serre",
+      "description": "Profil de Nathalie Serre",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Didier Berger",
       "url": "/profil/jean-didier-berger",
       "description": "Profil de Jean-Didier Berger",
@@ -832,6 +874,12 @@
       "title": "Thibaut Monnier",
       "url": "/profil/thibaut-monnier",
       "description": "Profil de Thibaut Monnier",
+      "type": "profil"
+    },
+    {
+      "title": "Thierry Frappé",
+      "url": "/profil/thierry-frappe",
+      "description": "Profil de Thierry Frappé",
       "type": "profil"
     },
     {
@@ -871,6 +919,12 @@
       "type": "profil"
     },
     {
+      "title": "Vincent Seitlinger",
+      "url": "/profil/vincent-seitlinger",
+      "description": "Profil de Vincent Seitlinger",
+      "type": "profil"
+    },
+    {
       "title": "Vincent Descoeur",
       "url": "/profil/vincent-descoeur",
       "description": "Profil de Vincent Descoeur",
@@ -895,6 +949,12 @@
       "type": "profil"
     },
     {
+      "title": "Alain Juppé",
+      "url": "/profil/alain-juppe",
+      "description": "Profil de Alain Juppé",
+      "type": "profil"
+    },
+    {
       "title": "Corinne Vignon",
       "url": "/profil/corinne-vignon",
       "description": "Profil de Corinne Vignon",
@@ -910,6 +970,12 @@
       "title": "Thierry Solère",
       "url": "/profil/thierry-solere",
       "description": "Profil de Thierry Solère",
+      "type": "profil"
+    },
+    {
+      "title": "Laurence Vichnievsky",
+      "url": "/profil/laurence-vichnievsky",
+      "description": "Profil de Laurence Vichnievsky",
       "type": "profil"
     },
     {
@@ -946,6 +1012,12 @@
       "title": "Michèle Tabarot",
       "url": "/profil/michele-tabarot",
       "description": "Profil de Michèle Tabarot",
+      "type": "profil"
+    },
+    {
+      "title": "Thierry Breton",
+      "url": "/profil/thierry-breton",
+      "description": "Profil de Thierry Breton",
       "type": "profil"
     },
     {
@@ -1096,6 +1168,12 @@
       "title": "Nicolas Metzdorf",
       "url": "/profil/nicolas-metzdorf",
       "description": "Profil de Nicolas Metzdorf",
+      "type": "profil"
+    },
+    {
+      "title": "Grégoire de Fournas",
+      "url": "/profil/gregoire-de-fournas",
+      "description": "Profil de Grégoire de Fournas",
       "type": "profil"
     },
     {
@@ -1441,6 +1519,12 @@
       "type": "profil"
     },
     {
+      "title": "Philippe Bas",
+      "url": "/profil/philippe-bas",
+      "description": "Profil de Philippe Bas",
+      "type": "profil"
+    },
+    {
       "title": "Camille Stineau",
       "url": "/profil/camille-stineau",
       "description": "Profil de Camille Stineau",
@@ -1534,6 +1618,18 @@
       "title": "Agnès Saal",
       "url": "/profil/agnes-saal",
       "description": "Profil de Agnès Saal",
+      "type": "profil"
+    },
+    {
+      "title": "Véronique Malbec",
+      "url": "/profil/veronique-malbec",
+      "description": "Profil de Véronique Malbec",
+      "type": "profil"
+    },
+    {
+      "title": "Catherine Jaouen",
+      "url": "/profil/catherine-jaouen",
+      "description": "Profil de Catherine Jaouen",
       "type": "profil"
     },
     {
@@ -1684,6 +1780,12 @@
       "title": "Jean-Pierre Bataille",
       "url": "/profil/jean-pierre-bataille",
       "description": "Profil de Jean-Pierre Bataille",
+      "type": "profil"
+    },
+    {
+      "title": "Thibaut François",
+      "url": "/profil/thibaut-francois",
+      "description": "Profil de Thibaut François",
       "type": "profil"
     },
     {
@@ -2221,6 +2323,12 @@
       "type": "profil"
     },
     {
+      "title": "Alexis Jolly",
+      "url": "/profil/alexis-jolly",
+      "description": "Profil de Alexis Jolly",
+      "type": "profil"
+    },
+    {
       "title": "Frédérique Meunier",
       "url": "/profil/frederique-meunier",
       "description": "Profil de Frédérique Meunier",
@@ -2230,6 +2338,12 @@
       "title": "Laurent Croizier",
       "url": "/profil/laurent-croizier",
       "description": "Profil de Laurent Croizier",
+      "type": "profil"
+    },
+    {
+      "title": "Jacques Mézard",
+      "url": "/profil/jacques-mezard",
+      "description": "Profil de Jacques Mézard",
       "type": "profil"
     },
     {
@@ -2254,6 +2368,12 @@
       "title": "Emmanuel Blairy",
       "url": "/profil/emmanuel-blairy",
       "description": "Profil de Emmanuel Blairy",
+      "type": "profil"
+    },
+    {
+      "title": "Pierrick Berteloot",
+      "url": "/profil/pierrick-berteloot",
+      "description": "Profil de Pierrick Berteloot",
       "type": "profil"
     },
     {
@@ -2617,6 +2737,12 @@
       "type": "profil"
     },
     {
+      "title": "Victor Catteau",
+      "url": "/profil/victor-catteau",
+      "description": "Profil de Victor Catteau",
+      "type": "profil"
+    },
+    {
       "title": "Didier Lemaire",
       "url": "/profil/didier-lemaire",
       "description": "Profil de Didier Lemaire",
@@ -2626,6 +2752,12 @@
       "title": "Bruno Le Roux",
       "url": "/profil/bruno-le-roux",
       "description": "Profil de Bruno Le Roux",
+      "type": "profil"
+    },
+    {
+      "title": "François Pillet",
+      "url": "/profil/francois-pillet",
+      "description": "Profil de François Pillet",
       "type": "profil"
     },
     {
@@ -2793,5 +2925,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-08-26T20:31:30.233955"
+  "generated_at": "2025-08-27T12:25:02.946599"
 }
