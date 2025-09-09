@@ -13,6 +13,12 @@
       "type": "profil"
     },
     {
+      "title": "Chantal Jouanno",
+      "url": "/profil/chantal-jouanno",
+      "description": "Profil de Chantal Jouanno",
+      "type": "profil"
+    },
+    {
       "title": "Véronique Malbec",
       "url": "/profil/veronique-malbec",
       "description": "Profil de Véronique Malbec",
@@ -409,6 +415,12 @@
       "type": "profil"
     },
     {
+      "title": "Bruno Léchevin",
+      "url": "/profil/bruno-lechevin",
+      "description": "Profil de Bruno Léchevin",
+      "type": "profil"
+    },
+    {
       "title": "Alexandre Loubet",
       "url": "/profil/alexandre-loubet",
       "description": "Profil de Alexandre Loubet",
@@ -523,6 +535,12 @@
       "type": "profil"
     },
     {
+      "title": "Michel Mousel",
+      "url": "/profil/michel-mousel",
+      "description": "Profil de Michel Mousel",
+      "type": "profil"
+    },
+    {
       "title": "Christophe Bentz",
       "url": "/profil/christophe-bentz",
       "description": "Profil de Christophe Bentz",
@@ -631,9 +649,9 @@
       "type": "profil"
     },
     {
-      "title": "Eric Liégeon",
+      "title": "Éric Liégeon",
       "url": "/profil/eric-liegeon",
-      "description": "Profil de Eric Liégeon",
+      "description": "Profil de Éric Liégeon",
       "type": "profil"
     },
     {
@@ -664,6 +682,12 @@
       "title": "Thierry Perez",
       "url": "/profil/thierry-perez",
       "description": "Profil de Thierry Perez",
+      "type": "profil"
+    },
+    {
+      "title": "Michèle Pappalardo",
+      "url": "/profil/michele-pappalardo",
+      "description": "Profil de Michèle Pappalardo",
       "type": "profil"
     },
     {
@@ -1207,6 +1231,12 @@
       "type": "profil"
     },
     {
+      "title": "Philippe Van de Maele",
+      "url": "/profil/philippe-van-de-maele",
+      "description": "Profil de Philippe Van de Maele",
+      "type": "profil"
+    },
+    {
       "title": "Jean-François Eliaou",
       "url": "/profil/jean-francois-eliaou",
       "description": "Profil de Jean-François Eliaou",
@@ -1735,6 +1765,12 @@
       "type": "profil"
     },
     {
+      "title": "Sylvain Waserman",
+      "url": "/profil/sylvain-waserman",
+      "description": "Profil de Sylvain Waserman",
+      "type": "profil"
+    },
+    {
       "title": "Agnès Buzyn",
       "url": "/profil/agnes-buzyn",
       "description": "Profil de Agnès Buzyn",
@@ -1852,6 +1888,12 @@
       "title": "Christophe Naegelen",
       "url": "/profil/christophe-naegelen",
       "description": "Profil de Christophe Naegelen",
+      "type": "profil"
+    },
+    {
+      "title": "Jacques Vernier",
+      "url": "/profil/jacques-vernier",
+      "description": "Profil de Jacques Vernier",
       "type": "profil"
     },
     {
@@ -2605,6 +2647,12 @@
       "type": "profil"
     },
     {
+      "title": "Arnaud Leroy",
+      "url": "/profil/arnaud-leroy",
+      "description": "Profil de Arnaud Leroy",
+      "type": "profil"
+    },
+    {
       "title": "Jérémie Patrier-Leitus",
       "url": "/profil/jeremie-patrier-leitus",
       "description": "Profil de Jérémie Patrier-Leitus",
@@ -3181,6 +3229,18 @@
       "type": "profil"
     },
     {
+      "title": "Christophe Béchu",
+      "url": "/profil/christophe-bechu",
+      "description": "Profil de Christophe Béchu",
+      "type": "profil"
+    },
+    {
+      "title": "Christelle Minard",
+      "url": "/profil/christelle-minard",
+      "description": "Profil de Christelle Minard",
+      "type": "profil"
+    },
+    {
       "title": "Perrine Goulet",
       "url": "/profil/perrine-goulet",
       "description": "Profil de Perrine Goulet",
@@ -3265,6 +3325,12 @@
       "type": "profil"
     },
     {
+      "title": "François Loos",
+      "url": "/profil/francois-loos",
+      "description": "Profil de François Loos",
+      "type": "profil"
+    },
+    {
       "title": "Grégoire de Fournas",
       "url": "/profil/gregoire-de-fournas",
       "description": "Profil de Grégoire de Fournas",
@@ -3307,9 +3373,21 @@
       "type": "profil"
     },
     {
+      "title": "Pierre Radanne",
+      "url": "/profil/pierre-radanne",
+      "description": "Profil de Pierre Radanne",
+      "type": "profil"
+    },
+    {
       "title": "Eric Woerth",
       "url": "/profil/eric-woerth",
       "description": "Profil de Eric Woerth",
+      "type": "profil"
+    },
+    {
+      "title": "Boris Ravignon",
+      "url": "/profil/boris-ravignon",
+      "description": "Profil de Boris Ravignon",
       "type": "profil"
     },
     {
@@ -3807,6 +3885,12 @@
   ],
   "sujets": [
     {
+      "title": "ADEME",
+      "url": "/sujet/ademe",
+      "description": "Sujet : ADEME",
+      "type": "sujet"
+    },
+    {
       "title": "Affaire des assistants parlementaires du RN",
       "url": "/sujet/affaire-assistants-parlementaires-rn",
       "description": "Sujet : Affaire des assistants parlementaires du RN",
@@ -3879,5 +3963,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-09-08T15:46:04.408425"
+  "generated_at": "2025-09-09T16:06:07.957064"
 }

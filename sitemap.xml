@@ -31,6 +31,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/chantal-jouanno</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/veronique-malbec</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -361,6 +366,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/bruno-lechevin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/alexandre-loubet</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -452,6 +462,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/adrien-quatennens</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/michel-mousel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -572,6 +587,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/thierry-perez</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/michele-pappalardo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1026,6 +1046,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/philippe-van-de-maele</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/jean-francois-eliaou</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1466,6 +1491,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/sylvain-waserman</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/agnes-buzyn</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1562,6 +1592,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/christophe-naegelen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/jacques-vernier</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2191,6 +2226,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/arnaud-leroy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/jeremie-patrier-leitus</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2671,6 +2711,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/christophe-bechu</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/christelle-minard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/perrine-goulet</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2741,6 +2791,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/francois-loos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/gregoire-de-fournas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2776,7 +2831,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/pierre-radanne</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/eric-woerth</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/boris-ravignon</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3187,6 +3252,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/henri-guaino</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/sujet/ademe</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
