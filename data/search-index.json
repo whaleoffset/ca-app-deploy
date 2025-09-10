@@ -757,6 +757,12 @@
       "type": "profil"
     },
     {
+      "title": "Muriel Rozenfeld",
+      "url": "/profil/muriel-rozenfeld",
+      "description": "Profil de Muriel Rozenfeld",
+      "type": "profil"
+    },
+    {
       "title": "Bartolomé Lenoir",
       "url": "/profil/bartolome-lenoir",
       "description": "Profil de Bartolomé Lenoir",
@@ -1699,6 +1705,12 @@
       "type": "profil"
     },
     {
+      "title": "Arthur Anane",
+      "url": "/profil/arthur-anane",
+      "description": "Profil de Arthur Anane",
+      "type": "profil"
+    },
+    {
       "title": "Vincent Thiébaut",
       "url": "/profil/vincent-thiebaut",
       "description": "Profil de Vincent Thiébaut",
@@ -2551,6 +2563,12 @@
       "type": "profil"
     },
     {
+      "title": "Diane Pilotaz",
+      "url": "/profil/diane-pilotaz",
+      "description": "Profil de Diane Pilotaz",
+      "type": "profil"
+    },
+    {
       "title": "Nicolas Turquois",
       "url": "/profil/nicolas-turquois",
       "description": "Profil de Nicolas Turquois",
@@ -2560,6 +2578,12 @@
       "title": "Olivia Grégoire",
       "url": "/profil/olivia-gregoire",
       "description": "Profil de Olivia Grégoire",
+      "type": "profil"
+    },
+    {
+      "title": "Stéphane Le Foll",
+      "url": "/profil/stephane-le-foll",
+      "description": "Profil de Stéphane Le Foll",
       "type": "profil"
     },
     {
@@ -3052,6 +3076,12 @@
       "title": "Claire Landais",
       "url": "/profil/claire-landais",
       "description": "Profil de Claire Landais",
+      "type": "profil"
+    },
+    {
+      "title": "Paulo Paranagua",
+      "url": "/profil/paulo-paranagua",
+      "description": "Profil de Paulo Paranagua",
       "type": "profil"
     },
     {
@@ -3829,6 +3859,12 @@
       "type": "profil"
     },
     {
+      "title": "Bernard Pignerol",
+      "url": "/profil/bernard-pignerol",
+      "description": "Profil de Bernard Pignerol",
+      "type": "profil"
+    },
+    {
       "title": "Marina Ferrari",
       "url": "/profil/marina-ferrari",
       "description": "Profil de Marina Ferrari",
@@ -3868,6 +3904,12 @@
       "title": "Victor Catteau",
       "url": "/profil/victor-catteau",
       "description": "Profil de Victor Catteau",
+      "type": "profil"
+    },
+    {
+      "title": "Luc Chatel",
+      "url": "/profil/luc-chatel",
+      "description": "Profil de Luc Chatel",
       "type": "profil"
     },
     {
@@ -4053,5 +4095,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-09-10T14:16:52.549922"
+  "generated_at": "2025-09-10T15:17:19.408299"
 }

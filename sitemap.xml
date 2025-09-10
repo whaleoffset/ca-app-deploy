@@ -651,6 +651,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/muriel-rozenfeld</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/bartolome-lenoir</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1436,6 +1441,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/arthur-anane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/vincent-thiebaut</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2146,12 +2156,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/diane-pilotaz</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/nicolas-turquois</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/olivia-gregoire</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/stephane-le-foll</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2562,6 +2582,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/claire-landais</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/paulo-paranagua</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3211,6 +3236,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/bernard-pignerol</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/marina-ferrari</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3242,6 +3272,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/victor-catteau</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/luc-chatel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
