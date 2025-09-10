@@ -1549,12 +1549,6 @@
       "type": "profil"
     },
     {
-      "title": "Jean-François Bacchi",
-      "url": "/profil/jean-francois-bacchi",
-      "description": "Profil de Jean-François Bacchi",
-      "type": "profil"
-    },
-    {
       "title": "Hubert Védrine",
       "url": "/profil/hubert-vedrine",
       "description": "Profil de Hubert Védrine",
@@ -2611,12 +2605,6 @@
       "type": "profil"
     },
     {
-      "title": "Jean-François Battistel",
-      "url": "/profil/jean-francois-battistel",
-      "description": "Profil de Jean-François Battistel",
-      "type": "profil"
-    },
-    {
       "title": "Jean-Luc Bennahmias",
       "url": "/profil/jean-luc-bennahmias",
       "description": "Profil de Jean-Luc Bennahmias",
@@ -3346,12 +3334,6 @@
       "title": "Perrine Goulet",
       "url": "/profil/perrine-goulet",
       "description": "Profil de Perrine Goulet",
-      "type": "profil"
-    },
-    {
-      "title": "Jean-François Batail",
-      "url": "/profil/jean-francois-batail",
-      "description": "Profil de Jean-François Batail",
       "type": "profil"
     },
     {
@@ -4095,5 +4077,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-09-10T15:17:19.408299"
+  "generated_at": "2025-09-10T15:36:41.847910"
 }

@@ -1311,11 +1311,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/jean-francois-bacchi</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.casierpolitique.com/profil/hubert-vedrine</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2196,11 +2191,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.casierpolitique.com/profil/jean-francois-battistel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.casierpolitique.com/profil/jean-luc-bennahmias</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2807,11 +2797,6 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/perrine-goulet</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.casierpolitique.com/profil/jean-francois-batail</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
