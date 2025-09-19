@@ -311,6 +311,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/michel-guidi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/sebastien-delogu</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -372,6 +377,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/joel-hocquelet</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/erwan-beaudouin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -807,6 +817,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/stella-dupont</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/thierry-avouac</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2031,6 +2046,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.casierpolitique.com/profil/joel-guerriau</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.casierpolitique.com/profil/jean-philippe-tanguy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2257,6 +2277,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/brigitte-liso</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/louis-sarkozy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3247,6 +3272,11 @@
   </url>
   <url>
     <loc>https://www.casierpolitique.com/profil/beatrice-roullaud</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casierpolitique.com/profil/benjamin-morival</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

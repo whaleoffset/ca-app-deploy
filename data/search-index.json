@@ -349,6 +349,12 @@
       "type": "profil"
     },
     {
+      "title": "Michel Guidi",
+      "url": "/profil/michel-guidi",
+      "description": "Profil de Michel Guidi",
+      "type": "profil"
+    },
+    {
       "title": "Sébastien Delogu",
       "url": "/profil/sebastien-delogu",
       "description": "Profil de Sébastien Delogu",
@@ -424,6 +430,12 @@
       "title": "Joël Hocquelet",
       "url": "/profil/joel-hocquelet",
       "description": "Profil de Joël Hocquelet",
+      "type": "profil"
+    },
+    {
+      "title": "Erwan Beaudouin",
+      "url": "/profil/erwan-beaudouin",
+      "description": "Profil de Erwan Beaudouin",
       "type": "profil"
     },
     {
@@ -946,6 +958,12 @@
       "title": "Stella Dupont",
       "url": "/profil/stella-dupont",
       "description": "Profil de Stella Dupont",
+      "type": "profil"
+    },
+    {
+      "title": "Thierry Avouac",
+      "url": "/profil/thierry-avouac",
+      "description": "Profil de Thierry Avouac",
       "type": "profil"
     },
     {
@@ -2413,6 +2431,12 @@
       "type": "profil"
     },
     {
+      "title": "Joël Guerriau",
+      "url": "/profil/joel-guerriau",
+      "description": "Profil de Joël Guerriau",
+      "type": "profil"
+    },
+    {
       "title": "Jean-Philippe Tanguy",
       "url": "/profil/jean-philippe-tanguy",
       "description": "Profil de Jean-Philippe Tanguy",
@@ -2686,6 +2710,12 @@
       "title": "Brigitte Liso",
       "url": "/profil/brigitte-liso",
       "description": "Profil de Brigitte Liso",
+      "type": "profil"
+    },
+    {
+      "title": "Louis Sarkozy",
+      "url": "/profil/louis-sarkozy",
+      "description": "Profil de Louis Sarkozy",
       "type": "profil"
     },
     {
@@ -3877,6 +3907,12 @@
       "type": "profil"
     },
     {
+      "title": "Benjamin Morival",
+      "url": "/profil/benjamin-morival",
+      "description": "Profil de Benjamin Morival",
+      "type": "profil"
+    },
+    {
       "title": "Bénédicte Auzanot",
       "url": "/profil/benedicte-auzanot",
       "description": "Profil de Bénédicte Auzanot",
@@ -4077,5 +4113,5 @@
       "type": "sujet"
     }
   ],
-  "generated_at": "2025-09-10T15:42:52.947385"
+  "generated_at": "2025-09-19T10:04:11.740225"
 }
